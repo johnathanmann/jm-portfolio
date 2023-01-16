@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import MainPage from "./MainPage";
-import "../styles/styles.css"
+import OtherPage from "./OtherPage";
+import "../styles/animation.css";
 
 export default function Portfolio() {
   const [currentPage, setCurrentPage] = useState("MainPage");
@@ -9,10 +10,13 @@ export default function Portfolio() {
     if (currentPage === "MainPage") {
       return <MainPage handlePageChange={handlePageChange} />;
     }
+    if (currentPage === "OtherPage") {
+      return <OtherPage handlePageChange={handlePageChange}/>;
+    }
   };
 
   useEffect(() => {
-    document.title = "Sprite Planner";
+    document.title = "Johnathan Mann";
   }, []);
 
   const handlePageChange = (page) => setCurrentPage(page);
