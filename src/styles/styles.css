@@ -1,0 +1,114 @@
+body{
+    overflow-x: hidden;
+}
+
+:root{
+    --red: #af453c;
+    --white: #e4e4e4;
+    all: unset;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../assets/fonts/Montserrat.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Italic;
+    src: url(../assets/fonts/Montserrat-Italic.ttf);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.big-text{
+    font-family: Montserrat;
+    font-weight:700;
+    color: var(--red);
+    display: block;
+    font-size: 100px;
+}
+
+
+#nav-items, li, a{
+    text-decoration: none;
+    all: unset;
+    display: inline-flex;
+    margin: 5px 50px;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+
+h2{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 75px;
+}
+
+img{
+    height: 100px;
+}
+
+/* Laptop */
+@media (max-width: 1024px) {
+    #nav-items, li, a{
+        margin: 5px 25px;
+    }
+
+    .big-text{
+        font-size: 75px;
+    }
+
+    h2{
+        font-size: 50px;
+    }
+
+    img{
+        height: 75px;
+    }
+    
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    #nav-items, li, a{
+        margin: 5px 15px;
+        font-size: 15px;
+    }
+
+    .big-text{
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    img{
+        height: 50px;
+    }
+    
+}
+
+/* Phone */
+@media (max-width: 425px) {
+    #nav-items, li, a{
+        margin: 5px 10px;
+        font-size: 12px;
+    }
+
+    .big-text{
+        font-size: 35px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    img{
+        height: 25px;
+    }
+    
+}

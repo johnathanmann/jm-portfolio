@@ -4,19 +4,12 @@ body{
 }
 
 .container-white {
-    display: flex;
-    height: 100vh;
-    color: #fff;
     animation: from-left .8s ease forwards;
-    background-image: url("../assets/imgs/whitebg.png");
     position: relative;
     transition: all .8s ease;
 }
 
 .container-red {
-    display: flex;
-    height: 100vh;
-    color: #fff;
     animation: from-right .8s ease forwards;
     background-image: url("../assets/imgs/redbg.png");
     position: relative;

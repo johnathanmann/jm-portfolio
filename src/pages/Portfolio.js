@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import MainPage from "./MainPage";
 import OtherPage from "./OtherPage";
 import "../styles/animation.css";
+import "../styles/styles.css";
 
 export default function Portfolio() {
   const [currentPage, setCurrentPage] = useState("MainPage");
