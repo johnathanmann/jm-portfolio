@@ -6,8 +6,8 @@ import css from "../assets/imgs/css-icon.png";
 import js from "../assets/imgs/js-icon.png";
 import react from "../assets/imgs/react-icon.png";
 import mongo from "../assets/imgs/mongo-icon.png";
-import seared from "../assets/imgs/seared.png";
-import sprite from "../assets/imgs/sprite-planner.png";
+import seared from "../assets/imgs/seared/seared.png";
+import sprite from "../assets/imgs/sprite/sprite-planner.png";
 
 export default function MainPage({handlePageChange }){
     return(
@@ -37,7 +37,7 @@ export default function MainPage({handlePageChange }){
         <h1 className="big-text section-header" >02/ PORTFOLIO</h1>
         <div id="portfolio">
             <div className="portfolio-item">
-                <p onClick={() => handlePageChange("Sprite")}><span className="big-text">SPRITE</span>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT</p>
+                <p onClick={() => handlePageChange("Sprite")}><span className="big-text">SPRITE</span>MERN STACK PROJECT PLANNING SITE</p>
                 <img onClick={() => handlePageChange("Sprite")}src={sprite} alt="Screenshot of Sprite website"/>
             </div>
         </div>
