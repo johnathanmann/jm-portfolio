@@ -6,6 +6,8 @@ import css from "../assets/imgs/css-icon.png";
 import js from "../assets/imgs/js-icon.png";
 import react from "../assets/imgs/react-icon.png";
 import mongo from "../assets/imgs/mongo-icon.png";
+import seared from "../assets/imgs/seared.png";
+import sprite from "../assets/imgs/sprite-planner.png";
 
 export default function MainPage({handlePageChange }){
     return(
@@ -20,7 +22,6 @@ export default function MainPage({handlePageChange }){
             <h2>FULLSTACK DEVELOPER</h2>
             <a href="#about"><img src={arrow} alt="Red arrow pointing down"/></a>
         </div>
-        {/* <button onClick={() => handlePageChange("OtherPage")}>Change Page</button> */}
         <h1 className="big-text section-header" >01/ About Me</h1>
         <div id="about">
             <img id="profile" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png"/>
@@ -32,6 +33,13 @@ export default function MainPage({handlePageChange }){
             <img className="icon" alt="Black React icon" src={react}/>
             <img className="icon" alt="Black MongoDb icon" src={mongo}/>
         </div>
+        </div>
+        <h1 className="big-text section-header" >02/ PORTFOLIO</h1>
+        <div id="portfolio">
+            <div className="portfolio-item">
+                <p onClick={() => handlePageChange("Sprite")}><span className="big-text">SPRITE</span>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT</p>
+                <img onClick={() => handlePageChange("Sprite")}src={sprite} alt="Screenshot of Sprite website"/>
+            </div>
         </div>
         </div>
     )

@@ -1,0 +1,13 @@
+.project-header{
+    margin: 0px;
+    padding: 10px;
+    color: #FFF;
+    display: flex;
+    text-shadow: -4px 3px #000;
+    margin: auto;
+}
+
+.carousel .slide img{
+    height: 200px;
+    width: fit-content;
+}

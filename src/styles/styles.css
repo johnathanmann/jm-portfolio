@@ -98,6 +98,28 @@ h2{
     margin: 10px 100px auto 25px;
 }
 
+#portfolio{
+    align-items: center;
+}
+
+.portfolio-item{
+    display: inline-flex;
+    align-items: center;
+    width: 100vw;
+    margin: auto;
+}
+
+.portfolio-item p{
+    width: 30vw;
+    margin: 20px 50px 20px auto;
+}
+
+.portfolio-item img{
+    height: 60vh;
+    width: fit-content;
+    margin: 20px auto 20px 50px;
+    border: 4px solid var(--red);
+}
 
 /* Laptop */
 @media (max-width: 1024px) {
@@ -154,12 +176,12 @@ h2{
 
     #header img{
         height: 50px;
+        margin-top: 100px;
     }
 
     #about{
         display: block;
         align-items: center;
-        text-align: center;
     }
 
     .section-header{
@@ -167,7 +189,7 @@ h2{
     }
 
     #icons{
-        display: flex;
+        display: flex-block;
     }
 
     #profile, .icon{
@@ -201,6 +223,20 @@ h2{
 
     .icon{
         height: 40px ;
+    }
+
+    .portfolio-item{
+        display: block;
+    }
+
+    .portfolio-item p{
+        margin: auto;
+        width: 80vw;
+    }
+
+    .portfolio-item img{
+        
+        height: 50vh
     }
     
 }

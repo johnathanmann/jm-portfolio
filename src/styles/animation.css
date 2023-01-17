@@ -10,6 +10,7 @@ body{
 }
 
 .container-red {
+    height: 100vh;
     animation: from-right .8s ease forwards;
     background-image: url("../assets/imgs/redbg.png");
     position: relative;
