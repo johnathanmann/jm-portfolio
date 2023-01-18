@@ -35,32 +35,41 @@
     margin: auto 10px;
 }
 
-.project-info h3{
-    font-size: 25px;
-    margin:0px 0px 10px 0px;
-    font-family: Montserrat;
-    color: #FFF;
-}
-
 .project-info img{
     height: 30px;
     justify-content: center;
+    margin-left: 10px;
 }
 
 .inline{
     display: inline-flex;
 }
 
-.project-info h4{
+.project-info a{
+    all: unset;
+}
+
+.project-info h4, .project-info h3{
     font-family: Montserrat;
     color: #FFF;
     text-shadow: -2px 3px #000;
     margin: auto 20px
 }
 
+.project-info h3{
+    font-family: Montserrat-Italic;
+}
+
 .project-info p{
     color: #FFF;
     margin: 25px;
+}
+
+#seared .project-info h4{
+    font-family: Montserrat;
+    color: #FFF;
+    text-shadow: -2px 3px #000;
+    margin: auto 15px
 }
 
 @media (max-width: 768px) {

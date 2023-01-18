@@ -102,19 +102,23 @@ h2{
     align-items: center;
 }
 
-.portfolio-item{
+#portfolio h2{
+    margin-left: 100px;
+}
+
+.fullstack-item{
     display: inline-flex;
     align-items: center;
     width: 100vw;
     margin: auto;
 }
 
-.portfolio-item p{
+.fullstack-item p{
     width: 30vw;
     margin: 20px 50px 20px auto;
 }
 
-.portfolio-item img{
+.fullstack-item img{
     height: 60vh;
     width: fit-content;
     margin: 20px auto 20px 50px;
@@ -195,6 +199,9 @@ h2{
     #profile, .icon{
         margin: auto;
     }
+    #portfolio h2{
+        margin-left: 50px;
+    }
     
 }
 
@@ -225,16 +232,16 @@ h2{
         height: 40px ;
     }
 
-    .portfolio-item{
+    .fullstack-item{
         display: block;
     }
 
-    .portfolio-item p{
+    .fullstack-item p{
         margin: auto;
         width: 80vw;
     }
 
-    .portfolio-item img{
+    .fullstack-item img{
         
         height: 50vh
     }
