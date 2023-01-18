@@ -16,7 +16,7 @@ export default function MainPage({handlePageChange }){
         <div id="header" className="center">
             <ul id="nav-items">
                 <li><a href="#about-link">ABOUT</a></li>
-                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
                 <li><a href="#contact">CONTACT</a></li>
             </ul>
             <h1 className="big-text">JOHNATHAN <br/>MANN</h1>
@@ -35,8 +35,8 @@ export default function MainPage({handlePageChange }){
             <img className="icon" alt="Black MongoDb icon" src={mongo}/>
         </div>
         </div>
-        <h1 className="big-text section-header" >02/ PORTFOLIO</h1>
-        <div id="portfolio">
+        <h1 className="big-text section-header" >02/ PROJECTS</h1>
+        <div id="projects">
         <h2>FULLSTACK</h2>
             <div className="fullstack-item">
                 <p onClick={() => handlePageChange("Sprite")}><span className="big-text">SPRITE PLANNER</span>MERN STACK PROJECT PLANNING SITE</p>
