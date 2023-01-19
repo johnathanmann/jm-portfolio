@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/jm-portfolio/static/css/main.80b92466.css",
+    "main.js": "/jm-portfolio/static/js/main.f2601ed2.js",
+    "static/media/whitebg.png": "/jm-portfolio/static/media/whitebg.0a71d3c4d125d83fdd4a.png",
+    "static/media/redbg.png": "/jm-portfolio/static/media/redbg.78bf6d6c699a4caefca0.png",
+    "static/media/seared1.png": "/jm-portfolio/static/media/seared1.473e2c0af7af7ed9c416.png",
+    "static/media/Montserrat-Italic.ttf": "/jm-portfolio/static/media/Montserrat-Italic.ef11b720b9a6cfb9a317.ttf",
+    "static/media/Montserrat.ttf": "/jm-portfolio/static/media/Montserrat.3faa3eef13649db02044.ttf",
+    "static/media/seared.png": "/jm-portfolio/static/media/seared.73b102513904ff8a963a.png",
+    "static/media/react-icon.png": "/jm-portfolio/static/media/react-icon.77f1fd59d0a33137add8.png",
+    "static/media/seared3.png": "/jm-portfolio/static/media/seared3.afaff15a7c126b2b442f.png",
+    "static/media/media1.png": "/jm-portfolio/static/media/media1.56ba70fd5d942d491c26.png",
+    "static/media/seared2.png": "/jm-portfolio/static/media/seared2.2387e0c5cf9e96a27483.png",
+    "static/media/media3.png": "/jm-portfolio/static/media/media3.2d0535f4b22fa64a81e5.png",
+    "static/media/media4.png": "/jm-portfolio/static/media/media4.3f3f5bc1e0ac1cdbb023.png",
+    "static/media/media2.png": "/jm-portfolio/static/media/media2.94b99fd26bd773ea399d.png",
+    "static/media/media-query.png": "/jm-portfolio/static/media/media-query.0593816703e60abfca29.png",
+    "static/media/mongo-icon.png": "/jm-portfolio/static/media/mongo-icon.bd7a99286909d687f3e5.png",
+    "static/media/css-icon.png": "/jm-portfolio/static/media/css-icon.1481852cd09bfdba5bcf.png",
+    "static/media/sprite4.png": "/jm-portfolio/static/media/sprite4.d6a2a7d40f6ff79e412a.png",
+    "static/media/sprite2.png": "/jm-portfolio/static/media/sprite2.3042903d4ef47fc4969b.png",
+    "index.html": "/jm-portfolio/index.html",
+    "main.80b92466.css.map": "/jm-portfolio/static/css/main.80b92466.css.map",
+    "main.f2601ed2.js.map": "/jm-portfolio/static/js/main.f2601ed2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80b92466.css",
+    "static/js/main.f2601ed2.js"
+  ]
+}
