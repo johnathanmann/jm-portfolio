@@ -86,4 +86,27 @@
     .project-info {
         margin: 20px 10px;
     }
+    .carousel-root {
+        width:400px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    #carousel1 {
+        display: none;
+    }
+    #carousel2 {
+        display: flex;
+        padding: 20px;
+    }
+    .project{
+        display: block;
+    }
+    .project-info {
+        margin: 20px 10px;
+    }
+    .project-info p{
+        font-size: 15px;
+    }
 }

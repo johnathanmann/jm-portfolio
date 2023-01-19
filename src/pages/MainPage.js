@@ -21,7 +21,7 @@ export default function MainPage({handlePageChange }){
             </ul>
             <h1 className="big-text">JOHNATHAN <br/>MANN</h1>
             <h2>FULLSTACK DEVELOPER</h2>
-            <a href="#about"><img src={arrow} alt="Red arrow pointing down"/></a>
+            <a href="#about-link"><img src={arrow} alt="Red arrow pointing down"/></a>
         </div>
         <h1 className="big-text section-header" id="about-link">01/ About Me</h1>
         <div id="about">
@@ -39,7 +39,7 @@ export default function MainPage({handlePageChange }){
         <div id="projects">
         <h2>FULLSTACK</h2>
             <div className="fullstack-item">
-                <p onClick={() => handlePageChange("Sprite")}><span className="big-text">SPRITE PLANNER</span>MERN STACK PROJECT PLANNING SITE</p>
+                <p onClick={() => handlePageChange("Sprite")}><span className="big-text">SPRITE PLANNER</span>MERN STACK PROJECT</p>
                 <img onClick={() => handlePageChange("Sprite")}src={sprite} alt="Screenshot of Sprite Planner website"/>
             </div>
             <div className="fullstack-item">

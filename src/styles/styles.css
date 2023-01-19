@@ -205,8 +205,14 @@ h2{
     
 }
 
+@media (max-width: 643px) {
+    .fullstack-item img{
+        height: 40vh
+    }
+}
+
 /* Phone */
-@media (max-width: 425px) {
+@media (max-width: 520px) {
     #nav-items, li, a{
         margin: 5px 10px;
         font-size: 12px;
@@ -218,10 +224,6 @@ h2{
 
     h2{
         font-size: 20px;
-    }
-
-    img{
-        height: 25px;
     }
 
     #profile{
@@ -242,7 +244,6 @@ h2{
     }
 
     .fullstack-item img{
-        
         height: 50vh
     }
     
