@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import MainPage from "./MainPage";
 import Sprite from "./Sprite";
 import Seared from "./Seared";
+import Scribbled from "./Scribbled";
 import MediaQuery from "./MediaQuery";
 import "../styles/animation.css";
 import "../styles/styles.css";
@@ -22,6 +23,9 @@ export default function Portfolio() {
     }
     if (currentPage === "MediaQuery") {
       return <MediaQuery handlePageChange={handlePageChange}/>;
+    }
+    if (currentPage === "Scribbled") {
+      return <Scribbled handlePageChange={handlePageChange}/>;
     }
   };
 

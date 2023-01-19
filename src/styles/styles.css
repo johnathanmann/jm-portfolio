@@ -31,6 +31,14 @@ body{
     font-size: 100px;
 }
 
+.big-text-2{
+    font-family: Montserrat;
+    font-weight:700;
+    color: var(--red);
+    display: block;
+    font-size: 80px;
+}
+
 .section-header{
     margin: 25px 25px 25px 100px;
 }
@@ -106,19 +114,19 @@ h2{
     margin-left: 100px;
 }
 
-.fullstack-item{
+.project-item{
     display: inline-flex;
     align-items: center;
     width: 100vw;
     margin: auto;
 }
 
-.fullstack-item p{
+.project-item p{
     width: 30vw;
     margin: 20px 50px 20px auto;
 }
 
-.fullstack-item img{
+.project-item img{
     height: 60vh;
     width: fit-content;
     margin: 20px auto 20px 50px;
@@ -133,6 +141,10 @@ h2{
 
     .big-text{
         font-size: 75px;
+    }
+
+    .big-text-2{
+        font-size: 55px;
     }
 
     h2{
@@ -174,6 +186,10 @@ h2{
         font-size: 50px;
     }
 
+    .big-text-2{
+        font-size: 30px;
+    }
+
     h2{
         font-size: 25px;
     }
@@ -206,7 +222,7 @@ h2{
 }
 
 @media (max-width: 643px) {
-    .fullstack-item img{
+    .project-item img{
         height: 40vh
     }
 }
@@ -234,16 +250,16 @@ h2{
         height: 40px ;
     }
 
-    .fullstack-item{
+    .project-item{
         display: block;
     }
 
-    .fullstack-item p{
+    .project-item p{
         margin: auto;
         width: 80vw;
     }
 
-    .fullstack-item img{
+    .project-item img{
         height: 50vh
     }
     

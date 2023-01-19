@@ -9,6 +9,7 @@ import mongo from "../assets/imgs/mongo-icon.png";
 import seared from "../assets/imgs/seared/seared.png";
 import sprite from "../assets/imgs/sprite/sprite-planner.png";
 import media from "../assets/imgs/media/media-query.png";
+import scribbled from "../assets/imgs/scribbled/scribbled.png";
 
 export default function MainPage({handlePageChange }){
     return(
@@ -37,20 +38,26 @@ export default function MainPage({handlePageChange }){
         </div>
         <h1 className="big-text section-header" >02/ PROJECTS</h1>
         <div id="projects">
-        <h2>FULLSTACK</h2>
-            <div className="fullstack-item">
+            <div className="project-item">
                 <p onClick={() => handlePageChange("Sprite")}><span className="big-text">SPRITE PLANNER</span>MERN STACK PROJECT</p>
                 <img onClick={() => handlePageChange("Sprite")}src={sprite} alt="Screenshot of Sprite Planner website"/>
             </div>
-            <div className="fullstack-item">
+            <div className="project-item">
                 <p onClick={() => handlePageChange("Seared")}><span className="big-text">SEARED</span>FULLSTACK GROUP PROJECT</p>
                 <img onClick={() => handlePageChange("Seared")}src={seared} alt="Screenshot of Seared website"/>
             </div>
-            <div className="fullstack-item">
+            <div className="project-item">
                 <p onClick={() => handlePageChange("MediaQuery")}><span className="big-text">MEDIA QUERY</span>MERN STACK PROJECT</p>
                 <img onClick={() => handlePageChange("MediaQuery")}src={media} alt="Screenshot of Media Query website"/>
             </div>
-            <h2>FRONTEND</h2>
+            <div className="project-item">
+                <p onClick={() => handlePageChange("Scribbled")}><span className="big-text-2">SCRIBBLED</span>FRONTEND DRAWING APP</p>
+                <img onClick={() => handlePageChange("Scribbled")}src={scribbled} alt="Screenshot of Media Query website"/>
+            </div>
+        </div>
+        <h1 className="big-text section-header" >03/ CONTACT</h1>
+        <div id="contact">
+            <h1>CONTACT@JOHNATHANMANN.COM</h1>
         </div>
         </div>
     )
