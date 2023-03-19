@@ -1,7 +1,3 @@
-body{
-    margin: 0;
-}
-
 .container-white {
     animation: from-left .8s ease forwards;
     position: relative;

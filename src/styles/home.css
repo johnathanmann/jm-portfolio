@@ -1,0 +1,39 @@
+#header{
+    position: relative;
+    display: inline-flex;
+    height: 100vh;
+    padding: 0px 75px;
+    color: #fff;
+
+}
+
+#title{
+    font-family: Hello-Kooky;
+    font-size: 150px;
+    margin-top: 75px;
+}
+
+#title::after{
+    content: url("../assets/imgs/up-splash.png");
+    top: -800px;
+    left: -60px;
+    position: relative;
+}
+
+#subheading::after{
+    content: url("../assets/imgs/down-splash.png");
+    top: -200px;
+    left: 450px;
+    position: relative;
+}
+
+#subheading {
+    font-family: Woodland;
+    font-size: 50px;
+}
+
+#portrait {
+    height: 500px;
+    align-items: end;
+    margin-top: 100px;
+}

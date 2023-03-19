@@ -9,11 +9,21 @@ import seared from "../assets/imgs/seared/seared.png";
 import sprite from "../assets/imgs/sprite/sprite-planner.png";
 import media from "../assets/imgs/media/media-query.png";
 import scribbled from "../assets/imgs/scribbled/scribbled.png";
+import portrait from "../assets/imgs/portrait.png";
+import "../styles/styles.css";
+import "../styles/home.css";
 
-export default function Homepage({handlePageChange }){
+export default function Homepage(){
     return(
-        <div className="container-white">
-            <h1>J</h1>
+        <div className="container-flex">
+            <div className="row d-flex justify-content-center" id="header">
+                <div className="col">
+                    <p id="title">Hi I'm <br /> Johnny<br/> <p id="subheading">Fullstack<br />Developer<br/></p></p>
+                </div>
+                <div className="col mx-auto">
+                    <img id="portrait" src={portrait} />
+                </div>
+            </div>
         </div>
     )
 }
