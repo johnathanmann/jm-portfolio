@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import arrow2 from "../assets/imgs/arrow2.png"
 import seared1 from "../assets/imgs/seared/seared1.png"
 import seared2 from "../assets/imgs/seared/seared2.png"
 import seared3 from "../assets/imgs/seared/seared3.png"

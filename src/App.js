@@ -1,6 +1,17 @@
-import React from "react";
-import Portfolio from "./pages/Portfolio";
+import {
+  HashRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 
-const App = () => <Portfolio/>;
+import Homepage from "./pages/Homepage";
 
-export default App;
+export default function App() {
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+      </Routes>
+    </HashRouter>
+  );
+}
