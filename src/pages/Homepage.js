@@ -15,10 +15,11 @@ import "../styles/home.css";
 
 export default function Homepage(){
     return(
-        <div className="container-flex">
-            <div className="row d-flex justify-content-center" id="header">
+        <div className="container">
+            <div className="row d-flex align-items-center" id="header">
                 <div className="col">
-                    <p id="title">Hi I'm <br /> Johnny<br/> <p id="subheading">Fullstack<br />Developer<br/></p></p>
+                    <p id="title">Hi I'm <br /> Johnny<br/></p>
+                    <p id="subheading">Fullstack<br />Developer<br/></p>
                 </div>
                 <div className="col mx-auto">
                     <img id="portrait" src={portrait} />
