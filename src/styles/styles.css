@@ -32,3 +32,16 @@ body{
     font-family: Hello-Kooky;
     src: url(../assets/fonts/Hello-KookyCloud-ExtraKooky.otf);
 }
+
+.header{
+    font-family: Hello-Kooky;
+    color: #ddd7d5;
+    font-size: 50px;
+    border-bottom: 1px solid #ddd7d5;
+}
+
+.p-text{
+    font-family: Woodland-Bold;
+    color: #ddd7d5;
+    font-size: 25px;
+}
