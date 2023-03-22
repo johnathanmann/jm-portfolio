@@ -22,6 +22,7 @@
 
 #subheading::after{
     content: url("../assets/imgs/down-splash.png");
+    transform: scale(.1);
     top: -200px;
     left: 310px;
     position: relative;
@@ -54,4 +55,30 @@
     padding-left: 5px;
     display: inline;
     vertical-align: middle;
+}
+
+.project{
+    padding: 50px;
+}
+
+.project-text h1, .project-text p, .project img{
+    display: inline-flex;
+    color: #ddd7d5;
+}
+
+.project-text h1{
+    font-family: Woodland-Bold;
+    padding: 20px 20px;
+}
+
+.project-text p{
+    font-family: Woodland;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+
+.project-img img{
+
+    border: 1px solid #ddd7d5;
+    border-radius: 10px;
 }

@@ -6,11 +6,9 @@ import js from "../assets/imgs/js-icon.png";
 import react from "../assets/imgs/react-icon.png";
 import mongo from "../assets/imgs/mongo.png";
 import node from "../assets/imgs/node.png";
-import seared from "../assets/imgs/seared/seared.png";
-import sprite from "../assets/imgs/sprite/sprite-planner.png";
-import media from "../assets/imgs/media/media-query.png";
-import scribbled from "../assets/imgs/scribbled/scribbled.png";
 import portrait from "../assets/imgs/portrait.png";
+import envelope from "../assets/imgs/envelope.jpg";
+import barbecue from "../assets/imgs/barbecue.jpg";
 import "../styles/styles.css";
 import "../styles/home.css";
 
@@ -28,7 +26,7 @@ export default function Homepage(){
             </div>
             <div className="row">
                 <h1 className="header">01/ About Me</h1>
-                <p className="p-text pt-3">My name is Johnathan Mann and I am a fullstack website developer with a background in the service industry. I'm problem solver with a drive to learn looking to make responsive, accessible, and functional websites. I have the most fun picking colors and layouts while also trying out new technologys. <br /> <br /> When I'm not coding oyu can find me playing video games or checking out a new coffee shop. I'm always look to my day to day life for inspiration and new ideas.</p>
+                <p className="p-text pt-3">My name is Johnathan Mann and I am a fullstack website developer with a background in the service industry. I'm problem solver with a drive to learn looking to make responsive, accessible, and functional websites. I have the most fun picking colors and layouts while also trying out new technologys. <br /> <br /> When I'm not coding oyu can find me playing video games or checking out a new coffee shop. I'm always looking to my day to day life for inspiration and new ideas.</p>
                 <div id="icons">
                     <div className="icon"><img alt="HTML 5 icon" src={html} /><p className="p-text">HTML</p></div>
                     <div className="icon"><img alt="CSS 3 icon" src={css} /><p className="p-text">CSS</p></div>
@@ -36,6 +34,21 @@ export default function Homepage(){
                     <div className="icon"><img alt="React icon" src={react} /><p className="p-text">React</p></div>
                     <div className="icon"><img alt="MongoDB icon" src={mongo} /><p className="p-text">MongoDb</p></div>
                     <div className="icon"><img alt="Node.js icon" src={node} /><p className="p-text">Node.js</p></div>
+                </div>
+            </div>
+            <div className="row">
+                <h1 className="header pt-3">02/ Projects</h1>
+            </div>
+            <div className="row project">
+                <div className="col-8 my-auto">
+                    <div className="project-text text-center">
+                        <h1 >A note to you</h1><p>React</p><p>MongoDb</p><p>JQuery</p>
+                    </div>
+                </div>
+                <div className="col-4">
+                    <div className="project-img text-center">
+                        <img className="img-fluid" src={envelope} alt="Pile of opened and unopened envelopes"/>
+                    </div>
                 </div>
             </div>
         </div>
