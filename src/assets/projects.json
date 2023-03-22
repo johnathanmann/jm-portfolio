@@ -1,0 +1,24 @@
+[
+    {
+        "name": "A Note To You",
+        "word1": "React",
+        "word2": "MongoDb",
+        "word3": "JQuery",
+        "image": "envelope",
+        "alt": "Pile of opened and unopened envelopes"
+    },
+    {
+        "name": "Seared",
+        "word1": "MYSQL",
+        "word2": "Handlebars.js",
+        "word3": "Bootstrap 4",
+        "image": "barbecue"
+    },
+    {
+        "name": "Sprite Planner",
+        "word1": "React",
+        "word2": "MongoDb",
+        "word3": "Express",
+        "image": "planner"
+    }
+]

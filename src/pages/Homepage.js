@@ -9,8 +9,11 @@ import node from "../assets/imgs/node.png";
 import portrait from "../assets/imgs/portrait.png";
 import envelope from "../assets/imgs/envelope.jpg";
 import barbecue from "../assets/imgs/barbecue.jpg";
+import projects from "../assets/projects.json";
 import "../styles/styles.css";
 import "../styles/home.css";
+
+let icons = {envelope, barbecue}
 
 export default function Homepage(){
     return(
@@ -39,18 +42,20 @@ export default function Homepage(){
             <div className="row">
                 <h1 className="header pt-3">02/ Projects</h1>
             </div>
-            <div className="row project">
-                <div className="col-8 my-auto">
-                    <div className="project-text text-center">
-                        <h1 >A note to you</h1><p>React</p><p>MongoDb</p><p>JQuery</p>
-                    </div>
-                </div>
-                <div className="col-4">
-                    <div className="project-img text-center">
-                        <img className="img-fluid" src={envelope} alt="Pile of opened and unopened envelopes"/>
-                    </div>
+            {projects.map((project, index)=>{
+            return <div className="row project">
+            <div className="col-8 my-auto">
+                <div className="project-text text-center">
+                    <h1>{projects[index].name}</h1><p>{projects[index].word1}</p><p>{projects[index].word2}</p><p>{projects[index].word3}</p>
                 </div>
             </div>
+            <div className="col-4">
+                <div className="project-img text-center">
+                    <img className="img-fluid" src={icons[projects[index].image]} alt={projects[index].alt}/>
+                </div>
+            </div>
+        </div>
+            })}
         </div>
     )
 }
