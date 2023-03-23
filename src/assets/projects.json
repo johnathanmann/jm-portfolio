@@ -20,5 +20,12 @@
         "word2": "MongoDb",
         "word3": "Express",
         "image": "planner"
+    },
+    {
+        "name": "In-coded",
+        "word1": "React",
+        "word2": "MongoDb",
+        "word3": "JWT Tokens",
+        "image": "computer"
     }
 ]

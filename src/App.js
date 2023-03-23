@@ -3,6 +3,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import ScrollToHashElement from "../src/utils/ScrollToHashElement";
 
 import Nav from "./components/Nav";
 import Homepage from "./pages/Homepage";
@@ -10,8 +11,8 @@ import Homepage from "./pages/Homepage";
 export default function App() {
   return (
   <div>
-    <Nav />
     <HashRouter>
+    <ScrollToHashElement />
       <Routes>
         <Route path="/" element={<Homepage />} />
       </Routes>
