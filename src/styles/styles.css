@@ -7,13 +7,6 @@ body{
     -webkit-tap-highlight-color: transparent;
 }
 
-:root{
-    --red: #af453c;
-    --white: #e4e4e4;
-    all: unset;
-}
-
-
 #root{
     background-color: #000;
 }

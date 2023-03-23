@@ -15,14 +15,11 @@ import planner from "../assets/imgs/planner.jpg";
 import "../styles/styles.css";
 import "../styles/home.css";
 
-import Nav from "../components/Nav"
-
 let icons = {envelope, barbecue, computer, planner}
 
 export default function Homepage(){
     return(
         <div className="container">
-            <Nav />
             <div className="row d-flex align-items-center" id="header">
                 <div className="col-md-6">
                     <p id="title">Hi I'm <br /> Johnny<br/></p>
@@ -45,7 +42,7 @@ export default function Homepage(){
                 </div>
             </div>
             <div className="row">
-                <h1 className="header pt-3">02/ Projects</h1>
+                <h1 className="header pt-3" id="projects">02/ Projects</h1>
             </div>
             {projects.map((project, index)=>{
             return <div className="row project">

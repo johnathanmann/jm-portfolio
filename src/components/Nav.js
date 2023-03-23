@@ -1,15 +1,13 @@
 import "../styles/nav.css";
 import {NavLink} from "react-router-dom";
 
-
 export default function Nav(){
     return(
         <div id="nav">
                 <ul>
-                <NavLink to="/#about">Home</NavLink>
-                    <li>About Me</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                <li><NavLink to="/#about">About Me</NavLink></li>
+                <li><NavLink to="/#projects">Projects</NavLink></li>
+                <li><NavLink to="/#contact">Contact</NavLink></li>
                 </ul>
         </div>
     )

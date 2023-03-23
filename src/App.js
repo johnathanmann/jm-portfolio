@@ -13,6 +13,7 @@ export default function App() {
   <div>
     <HashRouter>
     <ScrollToHashElement />
+    <Nav />
       <Routes>
         <Route path="/" element={<Homepage />} />
       </Routes>
