@@ -7,6 +7,7 @@ import ScrollToHashElement from "../src/utils/ScrollToHashElement";
 
 import Nav from "./components/Nav";
 import Homepage from "./pages/Homepage";
+import Project from "./pages/Project"
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
     <Nav />
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/project" element={<Project />}/>
       </Routes>
     </HashRouter>
   </div>

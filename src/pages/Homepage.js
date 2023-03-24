@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import location from "../assets/imgs/location-icon.png";
 import html from "../assets/imgs/html-icon.png";
 import css from "../assets/imgs/css-icon.png";
@@ -45,10 +46,11 @@ export default function Homepage(){
                 <h1 className="header pt-3" id="projects">02/ Projects</h1>
             </div>
             {projects.map((project, index)=>{
+                var projectName = (projects[index].name);
             return <div className="row project">
             <div className="col-8 my-auto">
                 <div className="project-text">
-                    <h1>{projects[index].name}</h1><p>{projects[index].word1}</p><p>{projects[index].word2}</p><p>{projects[index].word3}</p>
+                    <Link to={"/project"} state={{ some: "seared" }}><h1>{projects[index].name}</h1></Link><p>{projects[index].word1}</p><p>{projects[index].word2}</p><p>{projects[index].word3}</p>
                 </div>
             </div>
             <div className="col-4">
