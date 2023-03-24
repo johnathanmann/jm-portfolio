@@ -12,8 +12,26 @@ export default function Project(){
     console.log(wantedProject)
 
     return(
-        <div>
-            <h1>{wantedProject[0].name}</h1>
+        <div id="project">
+            <div id='marquees'>
+                <div className="marquee" id="language">
+                    <div className="marquee__inner" aria-hidden="true">
+                        <span>{wantedProject[0].name}</span>
+                        <span>{wantedProject[0].name}</span>
+                        <span>{wantedProject[0].name}</span>
+                        <span>{wantedProject[0].name}</span>
+                        <span>{wantedProject[0].name}</span>
+                        <span>{wantedProject[0].name}</span>
+                    </div>
+                </div>
+            </div>
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-6" id="">
+                        <h1 className="tagline">{wantedProject[0].tagline}</h1>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

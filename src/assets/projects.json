@@ -5,27 +5,39 @@
         "word2": "MongoDb",
         "word3": "JQuery",
         "image": "envelope",
-        "alt": "Pile of opened and unopened envelopes"
+        "alt": "Pile of opened and unopened envelopes",
+        "tagline": "MERN stack project",
+        "repo": "https://github.com/johnathanmann/a-note-to-you",
+        "deployment": "https://a-note-to-you.herokuapp.com/"
     },
     {
         "name": "Seared",
         "word1": "MYSQL",
         "word2": "Handlebars.js",
         "word3": "Bootstrap 4",
-        "image": "barbecue"
+        "image": "barbecue",
+        "tagline": "Bootcamp group project",
+        "repo": "https://github.com/johnathanmann/Seared",
+        "deployment": "https://seared-project-2.herokuapp.com/"
     },
     {
         "name": "Sprite Planner",
         "word1": "React",
         "word2": "MongoDb",
         "word3": "Express",
-        "image": "planner"
+        "image": "planner",
+        "tagline": "MERN Stack Project",
+        "repo": "https://github.com/johnathanmann/sprite-planner",
+        "deployment": "https://sprite-planner.herokuapp.com/"
     },
     {
         "name": "In-coded",
         "word1": "React",
         "word2": "MongoDb",
         "word3": "JWT Tokens",
-        "image": "computer"
+        "image": "computer",
+        "tagline": "MERN stack Bootcamp group project",
+        "repo": "https://github.com/GavPO/in-ployed",
+        "deployment": "https://in-ployed.herokuapp.com/"
     }
 ]

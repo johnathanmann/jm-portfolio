@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import location from "../assets/imgs/location-icon.png";
 import html from "../assets/imgs/html-icon.png";
 import css from "../assets/imgs/css-icon.png";
@@ -50,7 +51,7 @@ export default function Homepage(){
             return <div className="row project">
             <div className="col-8 my-auto">
                 <div className="project-text">
-                    <Link to={"/project"} state={{ some: "A Note To You" }}><h1>{projects[index].name}</h1></Link><p>{projects[index].word1}</p><p>{projects[index].word2}</p><p>{projects[index].word3}</p>
+                <Link to={"/project"} state={{ some: projects[index].name }}><RoughNotation strokeWidth="2" type="underline" color="#fff" show="true"><h1 className="project-name">{projects[index].name}</h1></RoughNotation></Link><p>{projects[index].word1}</p><p>{projects[index].word2}</p><p>{projects[index].word3}</p>
                 </div>
             </div>
             <div className="col-4">
