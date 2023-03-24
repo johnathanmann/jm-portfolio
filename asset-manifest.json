@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jm-portfolio/static/css/main.77c52e84.css",
-    "main.js": "/jm-portfolio/static/js/main.f7ab1d9f.js",
+    "main.css": "/jm-portfolio/static/css/main.05c03d42.css",
+    "main.js": "/jm-portfolio/static/js/main.5e19eaa4.js",
     "static/media/computer.jpg": "/jm-portfolio/static/media/computer.34e583f26591e228ae4c.jpg",
     "static/media/envelope.jpg": "/jm-portfolio/static/media/envelope.70b6259adaf52529cbb1.jpg",
     "static/media/react-icon.png": "/jm-portfolio/static/media/react-icon.9993d13b42416a24e16c.png",
@@ -14,11 +14,11 @@
     "static/media/node.png": "/jm-portfolio/static/media/node.62ef11eaf8e96a4184b2.png",
     "static/media/mongo.png": "/jm-portfolio/static/media/mongo.201fa19abc5b99857d49.png",
     "index.html": "/jm-portfolio/index.html",
-    "main.77c52e84.css.map": "/jm-portfolio/static/css/main.77c52e84.css.map",
-    "main.f7ab1d9f.js.map": "/jm-portfolio/static/js/main.f7ab1d9f.js.map"
+    "main.05c03d42.css.map": "/jm-portfolio/static/css/main.05c03d42.css.map",
+    "main.5e19eaa4.js.map": "/jm-portfolio/static/js/main.5e19eaa4.js.map"
   },
   "entrypoints": [
-    "static/css/main.77c52e84.css",
-    "static/js/main.f7ab1d9f.js"
+    "static/css/main.05c03d42.css",
+    "static/js/main.5e19eaa4.js"
   ]
 }
