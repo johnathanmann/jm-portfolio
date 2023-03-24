@@ -50,7 +50,7 @@ export default function Homepage(){
             return <div className="row project">
             <div className="col-8 my-auto">
                 <div className="project-text">
-                    <Link to={"/project"} state={{ some: "seared" }}><h1>{projects[index].name}</h1></Link><p>{projects[index].word1}</p><p>{projects[index].word2}</p><p>{projects[index].word3}</p>
+                    <Link to={"/project"} state={{ some: "A Note To You" }}><h1>{projects[index].name}</h1></Link><p>{projects[index].word1}</p><p>{projects[index].word2}</p><p>{projects[index].word3}</p>
                 </div>
             </div>
             <div className="col-4">
