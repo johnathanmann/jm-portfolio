@@ -27,8 +27,13 @@ export default function Project(){
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6" id="">
+                    <div className="col-md-6" id="info">
                         <h1 className="tagline">{wantedProject[0].tagline}</h1>
+                        <a href={wantedProject[0].repo} target="_blank" rel="noreferrer"><h1>Repository</h1></a>
+                        <a href={wantedProject[0].deployment} target="_blank" rel="noreferrer"><h1>Deployment</h1></a>
+                    </div>
+                    <div className="col-md-6" id="info">
+                        <p className="p-text">{wantedProject[0].desc}</p>
                     </div>
                 </div>
             </div>

@@ -49,3 +49,18 @@
         transform: translate3d(var(--move-final), 0, 0);
     }
 }
+
+#info{
+    height: 50vh;
+    padding-top: 15vh;
+}
+
+#info h1{
+    font-family: Woodland;
+    color: #ddd7d5;
+    border-bottom: 1px solid #ddd7d5;
+}
+
+#info p-text{
+    padding-top: 10vh;
+}
