@@ -23,7 +23,7 @@ export default function Homepage(){
         <div className="container">
             <header className="row d-flex align-items-center" id="header">
                 <div className="col-md-6">
-                    <p id="title">Hi I'm <br /> Johnny<br/></p>
+                <p id="title"><RoughNotation strokeWidth="2" type="box" color="#FFF" show="true" padding={10} >Hi I'm </RoughNotation><br /> <RoughNotation strokeWidth="2" type="box" color="#FFF" show="true" padding={10} >Johnny</RoughNotation><br/></p>
                     <p id="subheading">Fullstack<br />Developer<br/></p>
                 </div>
                 <div className="col-md-6">
@@ -48,12 +48,17 @@ export default function Homepage(){
                 </div>
                 {projects.map((project, index)=>{
                 return <section className="row project">
-                <div className="col-8 my-auto">
+                <div className="col-sm-12 col-md-4 my-auto">
                     <div className="project-text">
-                    <Link to={"/project"} state={{ some: projects[index].name }}><RoughNotation strokeWidth="2" type="underline" color="#FFF" show="true"><h1 className="project-name">{projects[index].name}</h1></RoughNotation></Link><p>{projects[index].word1}</p><p>{projects[index].word2}</p><p>{projects[index].word3}</p>
+                        <Link to={"/project"} state={{ some: projects[index].name }}><RoughNotation strokeWidth="2" type="underline" color="#FFF" show="true"><h1 className="project-name">{projects[index].name}</h1></RoughNotation></Link>
                     </div>
                 </div>
-                <div className="col-4">
+                <div className="col-sm-12 col-md-4 my-auto">
+                    <div className="project-text">
+                    <p>{projects[index].word1}</p><p>{projects[index].word2}</p><p>{projects[index].word3}</p>
+                    </div>
+                </div>
+                <div className="col-md-4 ol-sm-12">
                     <div className="project-img">
                         <img className="img-fluid" src={icons[projects[index].image]} alt={projects[index].alt}/>
                     </div>

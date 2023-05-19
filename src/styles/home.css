@@ -1,19 +1,20 @@
 #header{
     position: relative;
-    display: inline-flex;
     padding: 0px 75px;
     color: #ddd7d5;
-
 }
 
 #title{
     font-family: Hello-Kooky;
     font-size: 100px;
-    margin-top: 75px;
-    height: 300px;
+    margin-top: 50px;
 }
 
-#title::after{
+#portrait{
+    margin-top: 100px;
+}
+
+/* #title::after{
     content: url("../assets/imgs/up-splash.png");
     top: -370px;
     left: -60px;
@@ -26,7 +27,7 @@
     top: -200px;
     left: 310px;
     position: relative;
-}
+} */
 
 #subheading {
     font-family: Woodland;
@@ -73,11 +74,25 @@
 
 .project-text p{
     font-family: Woodland;
-    padding: 20px 30px;
+    margin: 10px;
     font-size: 20px;
 }
 
 .project-img img{
     border: 1px solid #ddd7d5;
     border-radius: 10px;
+}
+
+#article{
+    margin: auto 10px;
+}
+
+@media (max-width: 576px){
+    #title{
+        margin-top: 100px;
+        font-size: 75px;
+    }
+    #portrait{
+        margin-top: auto;
+    }
 }

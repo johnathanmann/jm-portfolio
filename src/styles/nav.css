@@ -30,3 +30,10 @@ a{
     all: unset !important;
 }
 
+@media (max-width: 576px){
+    #nav ul{
+        left: 35px;
+        margin: auto;
+        right: auto;
+    }
+}
