@@ -12,11 +12,11 @@ import envelope from "../assets/imgs/envelope.jpg";
 import barbecue from "../assets/imgs/barbecue.jpg";
 import projects from "../assets/projects.json";
 import computer from "../assets/imgs/computer.jpg";
-import planner from "../assets/imgs/planner.jpg";
+import computer2 from "../assets/imgs/computer-2.jpg";
 import "../styles/styles.css";
 import "../styles/home.css";
 
-let icons = {envelope, barbecue, computer, planner}
+let icons = {envelope, barbecue, computer, computer2}
 
 export default function Homepage(){
     return(

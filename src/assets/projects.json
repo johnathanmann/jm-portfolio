@@ -23,14 +23,14 @@
         "desc":"Seared was a super fun project I did with some great developers in my coding bootcamp. The goal of the project was to make a full stack website that solved a real world problem. Our problem was the age old question of “What's for dinner?”. I did all of the designing on this project which I think turned out great. One of our biggest challenges were merge conflicts with the recipes.JSON file. The problem being is we each had a different version of the file when we tried to push it. We solved this by being more conscious of what we were pushing and when we were pulling."
     },
     {
-        "name": "Sprite Planner",
+        "name": "Code Culture",
         "word1": "React",
-        "word2": "MongoDb",
-        "word3": "Express",
-        "image": "planner",
-        "tagline": "MERN Stack Project",
-        "repo": "https://github.com/johnathanmann/sprite-planner",
-        "deployment": "https://sprite-planner.herokuapp.com/"
+        "word2": "Adobe Photoshop",
+        "word3": "Figma",
+        "image": "computer2",
+        "tagline": "Front end React project",
+        "repo": "https://github.com/johnathanmann/code-culture",
+        "deployment": "https://in-ployed.herokuapp.com/"
     },
     {
         "name": "In-coded",
