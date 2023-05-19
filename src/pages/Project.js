@@ -13,7 +13,7 @@ export default function Project(){
 
     return(
         <div id="project">
-            <div id='marquees'>
+            <header id='marquees'>
                 <div className="marquee" id="language">
                     <div className="marquee__inner" aria-hidden="true">
                         <span>{wantedProject[0].name}</span>
@@ -24,19 +24,19 @@ export default function Project(){
                         <span>{wantedProject[0].name}</span>
                     </div>
                 </div>
-            </div>
-            <div className="container">
+            </header>
+            <article className="container">
                 <div className="row">
-                    <div className="col-md-6" id="info">
+                    <section className="col-md-6" id="info">
                         <h1 className="tagline">{wantedProject[0].tagline}</h1>
                         <a href={wantedProject[0].repo} target="_blank" rel="noreferrer"><h1>Repository</h1></a>
                         <a href={wantedProject[0].deployment} target="_blank" rel="noreferrer"><h1>Deployment</h1></a>
-                    </div>
-                    <div className="col-md-6" id="info">
+                    </section>
+                    <section className="col-md-6" id="info">
                         <p className="p-text">{wantedProject[0].desc}</p>
-                    </div>
+                    </section>
                 </div>
-            </div>
+            </article>
         </div>
     )
 }

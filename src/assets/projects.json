@@ -9,7 +9,7 @@
         "tagline": "MERN stack project",
         "repo": "https://github.com/johnathanmann/a-note-to-you",
         "deployment": "https://a-note-to-you.herokuapp.com/",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "desc": "A Note to You is a project I did for the sake of sending my friends cute notes with a fun animation. This was a solo project that I did to practice my REST skills. My biggest challenge with this site was creating shared links for the notes. Originally I wanted to use the database id of the notes, but that didn't work since I couldn't get the id before it would be posted. So to solve this I instead used the uniqid npm to create an additional id that could be created before the post was made to the database making it possible to share the link with the user. My favorite part of this project was getting the live note display function working."
     },
     {
         "name": "Seared",
@@ -19,7 +19,8 @@
         "image": "barbecue",
         "tagline": "Bootcamp group project",
         "repo": "https://github.com/johnathanmann/Seared",
-        "deployment": "https://seared-project-2.herokuapp.com/"
+        "deployment": "https://seared-project-2.herokuapp.com/",
+        "desc":"Seared was a super fun project I did with some great developers in my coding bootcamp. The goal of the project was to make a full stack website that solved a real world problem. Our problem was the age old question of “What's for dinner?”. I did all of the designing on this project which I think turned out great. One of our biggest challenges were merge conflicts with the recipes.JSON file. The problem being is we each had a different version of the file when we tried to push it. We solved this by being more conscious of what we were pushing and when we were pulling."
     },
     {
         "name": "Sprite Planner",

@@ -1,6 +1,4 @@
 #project{
-    background-color: #000;
-    height: 100vh;
     padding-top: 70px;
 }
 
@@ -51,8 +49,7 @@
 }
 
 #info{
-    height: 50vh;
-    padding-top: 15vh;
+    padding-top: 10vh;
 }
 
 #info h1{
@@ -61,6 +58,6 @@
     border-bottom: 1px solid #ddd7d5;
 }
 
-#info p-text{
-    padding-top: 10vh;
+#info p{
+    padding: 20px ;
 }
