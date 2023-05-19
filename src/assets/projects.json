@@ -30,7 +30,8 @@
         "image": "computer2",
         "tagline": "Front end React project",
         "repo": "https://github.com/johnathanmann/code-culture",
-        "deployment": "https://in-ployed.herokuapp.com/"
+        "deployment": "https://in-ployed.herokuapp.com/",
+        "desc": "Code Culture is a work in progress but it is my pride and joy when it comes to design. This site has been so much fun to design, and it's been a really fun research project. I’ve used Photoshop to make some of the graphics and Figma to plan out the many different designs."
     },
     {
         "name": "In-coded",
