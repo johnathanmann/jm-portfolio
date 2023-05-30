@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { RoughNotation } from "react-rough-notation";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import html from "../assets/imgs/html-icon.png";
 import css from "../assets/imgs/css-icon.png";
 import js from "../assets/imgs/js-icon.png";
@@ -31,10 +34,10 @@ export default function Homepage(){
                     <img className="img-fluid" id="portrait" src={portrait} alt="Simple drawing of Johnny"/>
                 </div>
             </header>
+            <h1 className="header p-3" id="about">01/ About Me</h1>
             <article className="row">
-                <h1 className="header" id="about">01/ About Me</h1>
                 <p className="p-text pt-3">My name is Johnathan Mann and I am a fullstack website developer with a background in the service industry. I'm problem solver with a drive to learn looking to make responsive, accessible, and functional websites. I have the most fun picking colors and layouts while also trying out new technologys. <br /> <br /> I'm always looking to my day to day life for inspiration and new ideas. When I'm not coding you can find me playing video games or checking out a new coffee shop.</p>
-                <section id="icons">
+                <section id="icons" className="text-center">
                     <div className="icon"><img alt="HTML 5 icon" src={html} /><p className="p-text">HTML</p></div>
                     <div className="icon"><img alt="CSS 3 icon" src={css} /><p className="p-text">CSS</p></div>
                     <div className="icon"><img alt="JavaScript icon" src={js} /><p className="p-text">JavaScript</p></div>
@@ -44,9 +47,7 @@ export default function Homepage(){
                 </section>
             </article>
             <article>
-                <header className="row">
                     <h1 className="header pt-3" id="projects">02/ Projects</h1>
-                </header>
                 {projects.map((project, index)=>{
                 return <section className="row project">
                 <article className="col-sm-12 col-md-4 my-auto">
@@ -66,6 +67,12 @@ export default function Homepage(){
                 </article>
             </section>
                 })}
+        </article>
+        <article id="contact" className="col-12"> 
+            <h1 className="header pt-3" id="projects">03/ Contact</h1>
+            <h1><FontAwesomeIcon icon={faEnvelope} color="#ddd7d5"/><span>contact@johnathanmann.com</span></h1>
+            <h1><FontAwesomeIcon icon={faGithubSquare} color="#ddd7d5" /><span><a href="https://github.com/johnathanmann" target="_blank">Github</a></span></h1>
+            <h1><FontAwesomeIcon icon={faLinkedin} color="#ddd7d5" /><span><a href="https://www.linkedin.com/in/johnathan-mann-03548b240/" target="_blank">Linkedin</a></span></h1>
         </article>
         </div>
     )
