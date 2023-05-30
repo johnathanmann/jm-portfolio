@@ -3,7 +3,11 @@ import "../styles/project.css";
 import projects from "../assets/projects.json";
   
 export default function Project(){
+    const {state} = useLocation();
 
+    const wantedProject = projects.filter(function(i) {
+        return i.name === state.some;
+    });
 
     return(
         <div id="project">
