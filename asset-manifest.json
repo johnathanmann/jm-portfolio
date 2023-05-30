@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/jm-portfolio/static/css/main.05c03d42.css",
-    "main.js": "/jm-portfolio/static/js/main.5e19eaa4.js",
+    "main.css": "/jm-portfolio/static/css/main.f813a74a.css",
+    "main.js": "/jm-portfolio/static/js/main.1f9c8917.js",
     "static/media/computer.jpg": "/jm-portfolio/static/media/computer.34e583f26591e228ae4c.jpg",
     "static/media/envelope.jpg": "/jm-portfolio/static/media/envelope.70b6259adaf52529cbb1.jpg",
+    "static/media/computer-2.jpg": "/jm-portfolio/static/media/computer-2.ce0f24e2b8f7ec78233e.jpg",
     "static/media/react-icon.png": "/jm-portfolio/static/media/react-icon.9993d13b42416a24e16c.png",
     "static/media/barbecue.jpg": "/jm-portfolio/static/media/barbecue.6997c1febc431eff3c54.jpg",
-    "static/media/planner.jpg": "/jm-portfolio/static/media/planner.c5a6145e88d111e3c3ba.jpg",
     "static/media/Hello-KookyCloud-ExtraKooky.otf": "/jm-portfolio/static/media/Hello-KookyCloud-ExtraKooky.2a9df27ebb0760645409.otf",
+    "static/media/cava.jpg": "/jm-portfolio/static/media/cava.322a8bf55b24eb7f0887.jpg",
     "static/media/PPWoodland-Bold.otf": "/jm-portfolio/static/media/PPWoodland-Bold.2acd55d26cd0117e7acc.otf",
     "static/media/PPWoodland-Ultralight.otf": "/jm-portfolio/static/media/PPWoodland-Ultralight.bb845ce6205b959c3502.otf",
     "static/media/portrait.png": "/jm-portfolio/static/media/portrait.edd780ab80986ed45a28.png",
     "static/media/node.png": "/jm-portfolio/static/media/node.62ef11eaf8e96a4184b2.png",
     "static/media/mongo.png": "/jm-portfolio/static/media/mongo.201fa19abc5b99857d49.png",
     "index.html": "/jm-portfolio/index.html",
-    "main.05c03d42.css.map": "/jm-portfolio/static/css/main.05c03d42.css.map",
-    "main.5e19eaa4.js.map": "/jm-portfolio/static/js/main.5e19eaa4.js.map"
+    "main.f813a74a.css.map": "/jm-portfolio/static/css/main.f813a74a.css.map",
+    "main.1f9c8917.js.map": "/jm-portfolio/static/js/main.1f9c8917.js.map"
   },
   "entrypoints": [
-    "static/css/main.05c03d42.css",
-    "static/js/main.5e19eaa4.js"
+    "static/css/main.f813a74a.css",
+    "static/js/main.1f9c8917.js"
   ]
 }
