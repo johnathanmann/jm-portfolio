@@ -13,17 +13,18 @@ import barbecue from "../assets/imgs/barbecue.jpg";
 import projects from "../assets/projects.json";
 import computer from "../assets/imgs/computer.jpg";
 import computer2 from "../assets/imgs/computer-2.jpg";
+import cava from "../assets/imgs/cava.jpg";
 import "../styles/styles.css";
 import "../styles/home.css";
 
-let icons = {envelope, barbecue, computer, computer2}
+let icons = {envelope, barbecue, computer, computer2, cava}
 
 export default function Homepage(){
     return(
         <div className="container">
             <header className="row d-flex align-items-center" id="header">
                 <div className="col-md-6">
-                <p id="title"><RoughNotation strokeWidth="2" type="box" color="#FFF" show="true" padding={10} >Hi I'm </RoughNotation><br /> <RoughNotation strokeWidth="2" type="box" color="#FFF" show="true" padding={10} >Johnny</RoughNotation><br/></p>
+                <p id="title">Hi I'm <br /> <RoughNotation strokeWidth="2" type="underline" color="#ddd7d5" show="true" padding={10} >Johnny</RoughNotation><br/></p>
                     <p id="subheading">Fullstack<br />Developer<br/></p>
                 </div>
                 <div className="col-md-6">
@@ -43,26 +44,26 @@ export default function Homepage(){
                 </section>
             </article>
             <article>
-                <div className="row">
+                <header className="row">
                     <h1 className="header pt-3" id="projects">02/ Projects</h1>
-                </div>
+                </header>
                 {projects.map((project, index)=>{
                 return <section className="row project">
-                <div className="col-sm-12 col-md-4 my-auto">
+                <article className="col-sm-12 col-md-4 my-auto">
                     <div className="project-text">
-                        <Link to={"/project"} state={{ some: projects[index].name }}><RoughNotation strokeWidth="2" type="underline" color="#FFF" show="true"><h1 className="project-name">{projects[index].name}</h1></RoughNotation></Link>
+                        <Link to={"/project"} state={{ some: projects[index].name }}><RoughNotation strokeWidth="2" type="underline" color="#ddd7d5" show="true"><h1 className="project-name">{projects[index].name}</h1></RoughNotation></Link>
                     </div>
-                </div>
-                <div className="col-sm-12 col-md-4 my-auto">
+                </article>
+                <article className="col-sm-12 col-md-4 my-auto">
                     <div className="project-text">
                     <p>{projects[index].word1}</p><p>{projects[index].word2}</p><p>{projects[index].word3}</p>
                     </div>
-                </div>
-                <div className="col-md-4 ol-sm-12">
+                </article>
+                <article className="col-md-4 ol-sm-12">
                     <div className="project-img">
                         <img className="img-fluid" src={icons[projects[index].image]} alt={projects[index].alt}/>
                     </div>
-                </div>
+                </article>
             </section>
                 })}
         </article>

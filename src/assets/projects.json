@@ -1,5 +1,27 @@
 [
     {
+        "name": "In-coded",
+        "word1": "React",
+        "word2": "MongoDb",
+        "word3": "JWT Tokens",
+        "image": "computer",
+        "tagline": "MERN stack Bootcamp group project",
+        "repo": "https://github.com/GavPO/in-ployed",
+        "deployment": "https://in-ployed.herokuapp.com/",
+        "desc": "In-coded was my final group project of the coding bootcamp I took. My job on the project was basically the entire front end development and design. This was a great practice in working with others on the same repository and it definitely went smoother than my other projects did. Our biggest challenge with this site was just getting the hang of React state as React was still very new to us all. This project is definitely what made me fall in love with React!"
+    },
+    {
+        "name": "Seared",
+        "word1": "MYSQL",
+        "word2": "Handlebars.js",
+        "word3": "Bootstrap 4",
+        "image": "barbecue",
+        "tagline": "Bootcamp group project",
+        "repo": "https://github.com/johnathanmann/Seared",
+        "deployment": "https://seared-project-2.herokuapp.com/",
+        "desc":"Seared was a super fun project I did with some great developers in my coding bootcamp. The goal of the project was to make a full stack website that solved a real world problem. Our problem was the age old question of “What's for dinner?”. I did all of the designing on this project which I think turned out great. One of our biggest challenges were merge conflicts with the recipes.JSON file. The problem being is we each had a different version of the file when we tried to push it. We solved this by being more conscious of what we were pushing and when we were pulling."
+
+    },{
         "name": "A Note To You",
         "word1": "React",
         "word2": "MongoDb",
@@ -12,15 +34,16 @@
         "desc": "A Note to You is a project I did for the sake of sending my friends cute notes with a fun animation. This was a solo project that I did to practice my REST skills. My biggest challenge with this site was creating shared links for the notes. Originally I wanted to use the database id of the notes, but that didn't work since I couldn't get the id before it would be posted. So to solve this I instead used the uniqid npm to create an additional id that could be created before the post was made to the database making it possible to share the link with the user. My favorite part of this project was getting the live note display function working."
     },
     {
-        "name": "Seared",
-        "word1": "MYSQL",
-        "word2": "Handlebars.js",
-        "word3": "Bootstrap 4",
-        "image": "barbecue",
-        "tagline": "Bootcamp group project",
-        "repo": "https://github.com/johnathanmann/Seared",
-        "deployment": "https://seared-project-2.herokuapp.com/",
-        "desc":"Seared was a super fun project I did with some great developers in my coding bootcamp. The goal of the project was to make a full stack website that solved a real world problem. Our problem was the age old question of “What's for dinner?”. I did all of the designing on this project which I think turned out great. One of our biggest challenges were merge conflicts with the recipes.JSON file. The problem being is we each had a different version of the file when we tried to push it. We solved this by being more conscious of what we were pushing and when we were pulling."
+        "name": "CAVA Calculator",
+        "word1": "React",
+        "word2": "Vanilla CSS",
+        "word3": "JQuery",
+        "image": "cava",
+        "alt": "Cup with CAVA logo on it, a CAVA greens and grains bowl, and a CAVA gyro",
+        "tagline": "Front end React project",
+        "repo": "https://github.com/johnathanmann/cava-calculator",
+        "deployment": "https://johnathanmann.github.io/code-culture/",
+        "desc": "CAVA Calculator was a fun little practice in DOM manipulation via React. Additionally I put an emphasis on using semantic tags as it's been a weak point in some of my other works. When it came to the design of the site I tried to imitate that of the actual CAVA website in an effort to understand how the sites I am inspired by are made. "
     },
     {
         "name": "Code Culture",
@@ -30,17 +53,7 @@
         "image": "computer2",
         "tagline": "Front end React project",
         "repo": "https://github.com/johnathanmann/code-culture",
-        "deployment": "https://in-ployed.herokuapp.com/",
+        "deployment": "https://johnathanmann.github.io/code-culture/",
         "desc": "Code Culture is a work in progress but it is my pride and joy when it comes to design. This site has been so much fun to design, and it's been a really fun research project. I’ve used Photoshop to make some of the graphics and Figma to plan out the many different designs."
-    },
-    {
-        "name": "In-coded",
-        "word1": "React",
-        "word2": "MongoDb",
-        "word3": "JWT Tokens",
-        "image": "computer",
-        "tagline": "MERN stack Bootcamp group project",
-        "repo": "https://github.com/GavPO/in-ployed",
-        "deployment": "https://in-ployed.herokuapp.com/"
     }
 ]
