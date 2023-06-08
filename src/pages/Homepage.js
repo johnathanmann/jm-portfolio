@@ -36,7 +36,7 @@ export default function Homepage(){
             </header>
             <h1 className="header p-3" id="about">01/ About Me</h1>
             <article className="row">
-                <p className="p-text pt-3">My name is Johnathan Mann and I am a fullstack website developer with a background in the service industry. I'm problem solver with a drive to learn looking to make responsive, accessible, and functional websites. I have the most fun picking colors and layouts while also trying out new technologys. <br /> <br /> I'm always looking to my day to day life for inspiration and new ideas. When I'm not coding you can find me playing video games or checking out a new coffee shop.</p>
+                <p className="p-text pt-3">I'm Johnathan Mann, a passionate website developer specializing in React. After discovering my love for web development, I dedicated myself to honing my skills and expanding my knowledge in this dynamic field. In November, I successfully completed a rigorous six-month bootcamp, further solidifying my foundation in website development.<br /> <br /> During my learning journey, I have become proficient in various front-end technologies, including HTML5, CSS3, and JavaScript. With my bootcamp experience, I have gained hands-on exposure to industry best practices. Some of the most fun I have while developing came from collaborating on real-world projects, preparing me to work with others and to understand how development can look from different perspectives. <br /> <br /></p>
                 <section id="icons" className="text-center">
                     <div className="icon"><img alt="HTML 5 icon" src={html} /><p className="p-text">HTML</p></div>
                     <div className="icon"><img alt="CSS 3 icon" src={css} /><p className="p-text">CSS</p></div>
@@ -71,8 +71,8 @@ export default function Homepage(){
         <article id="contact" className="col-12"> 
             <h1 className="header pt-3" id="projects">03/ Contact</h1>
             <h1><FontAwesomeIcon icon={faEnvelope} color="#ddd7d5"/><span>contact@johnathanmann.com</span></h1>
-            <h1><FontAwesomeIcon icon={faGithubSquare} color="#ddd7d5" /><span><a href="https://github.com/johnathanmann" target="_blank">Github</a></span></h1>
-            <h1><FontAwesomeIcon icon={faLinkedin} color="#ddd7d5" /><span><a href="https://www.linkedin.com/in/johnathan-mann-03548b240/" target="_blank">Linkedin</a></span></h1>
+            <h1><FontAwesomeIcon icon={faGithubSquare} color="#ddd7d5" /><span><a rel="noreferrer" href="https://github.com/johnathanmann" target="_blank">Github</a></span></h1>
+            <h1><FontAwesomeIcon icon={faLinkedin} color="#ddd7d5" /><span><a rel="noreferrer" href="https://www.linkedin.com/in/johnathan-mann-03548b240/" target="_blank">Linkedin</a></span></h1>
         </article>
         </div>
     )

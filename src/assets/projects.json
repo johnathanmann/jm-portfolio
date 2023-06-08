@@ -42,18 +42,7 @@
         "alt": "Cup with CAVA logo on it, a CAVA greens and grains bowl, and a CAVA gyro",
         "tagline": "Front end React project",
         "repo": "https://github.com/johnathanmann/cava-calculator",
-        "deployment": "https://johnathanmann.github.io/code-culture/",
+        "deployment": "https://johnathanmann.github.io/cava-calculator/",
         "desc": "CAVA Calculator was a fun little practice in DOM manipulation via React. I put an emphasis on using semantic tags as it's been a weak point in some of my other works. When it came to the design of the site I tried to imitate that of the actual CAVA website in an effort to understand how the sites I am inspired by are made. "
-    },
-    {
-        "name": "Code Culture",
-        "word1": "React",
-        "word2": "Adobe Photoshop",
-        "word3": "Figma",
-        "image": "computer2",
-        "tagline": "Front end React project",
-        "repo": "https://github.com/johnathanmann/code-culture",
-        "deployment": "https://johnathanmann.github.io/code-culture/",
-        "desc": "Code Culture is a work in progress but it is my pride and joy when it comes to design. This site has been so much fun to design, and it's been a really fun research project. I’ve used Photoshop to make some of the graphics and Figma to plan out the many different designs."
     }
 ]
