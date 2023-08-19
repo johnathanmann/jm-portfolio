@@ -11,6 +11,17 @@
         "desc": "In-coded was my final group project of the coding bootcamp I took. My job on the project was basically the entire front end development and design. This was a great practice in working with others on the same repository and it definitely went smoother than my other projects did. Our biggest challenge with this site was just getting the hang of React state as React was still very new to us all. This project is definitely what made me fall in love with React!"
     },
     {
+        "name": "Siplicity",
+        "word1": "CSS",
+        "word2": "Adobe Photoshop",
+        "word3": "Bootstrap 5",
+        "image": "cans",
+        "tagline": "Mock beverage brand site",
+        "repo": "https://github.com/johnathanmann/siplicity",
+        "deployment": "https://johnathanmann.github.io/siplicity/",
+        "desc": "This project primarily centered around front-end design, offering an enjoyable opportunity to delve into color selection and animation techniques. Opting for a return to fundamentals, I chose to forgo the complexities of my typical React sites in favor of a streamlined design endeavor. The graphics used were made using photoshop both from purchased assets and my own designs. My favorite part of this project was creating my own CSS animations."
+    },
+    {
         "name": "Seared",
         "word1": "MYSQL",
         "word2": "Handlebars.js",
@@ -36,7 +47,7 @@
     {
         "name": "CAVA Calculator",
         "word1": "React",
-        "word2": "Vanilla CSS",
+        "word2": "CSS",
         "word3": "JQuery",
         "image": "cava",
         "alt": "Cup with CAVA logo on it, a CAVA greens and grains bowl, and a CAVA gyro",

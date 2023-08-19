@@ -17,10 +17,11 @@ import projects from "../assets/projects.json";
 import computer from "../assets/imgs/computer.jpg";
 import computer2 from "../assets/imgs/computer-2.jpg";
 import cava from "../assets/imgs/cava.jpg";
+import cans from "../assets/imgs/laying-cans.png";
 import "../styles/styles.css";
 import "../styles/home.css";
 
-let icons = {envelope, barbecue, computer, computer2, cava}
+let icons = {envelope, barbecue, computer, computer2, cava, cans}
 
 export default function Homepage(){
     return(
