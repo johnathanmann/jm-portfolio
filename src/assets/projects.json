@@ -1,16 +1,5 @@
 [
     {
-        "name": "In-coded",
-        "word1": "React",
-        "word2": "MongoDb",
-        "word3": "JWT Tokens",
-        "image": "computer",
-        "tagline": "MERN stack Bootcamp group project",
-        "repo": "https://github.com/GavPO/in-ployed",
-        "deployment": "https://in-ployed.herokuapp.com/",
-        "desc": "In-coded was my final group project of the coding bootcamp I took. My job on the project was basically the entire front end development and design. This was a great practice in working with others on the same repository and it definitely went smoother than my other projects did. Our biggest challenge with this site was just getting the hang of React state as React was still very new to us all. This project is definitely what made me fall in love with React!"
-    },
-    {
         "name": "Seared",
         "word1": "MYSQL",
         "word2": "Handlebars.js",
@@ -31,12 +20,12 @@
         "tagline": "MERN stack project",
         "repo": "https://github.com/johnathanmann/a-note-to-you",
         "deployment": "https://a-note-to-you.herokuapp.com/",
-        "desc": "A Note to You is a project I did for the sake of sending my friends cute notes with a fun animation. This was a solo project that I did to practice my REST skills. My biggest challenge with this site was creating shared links for the notes. Originally I wanted to use the database id of the notes, but that didn't work since I couldn't get the id before it would be posted. So to solve this I instead used the uniqid npm to create an additional id that could be created before the post was made to the database making it possible to share the link with the user. My favorite part of this project was getting the live note display function working."
+        "desc": "A Note to You is a project I did for the sake of sending my friends cute notes with a fun animation. This was a solo project that I did to practice my REST skills. My biggest challenge with this site was creating shared links for the notes. The solution ended up being creating an additional id with uniqid npm that could be created before the post was made to the database making it possible to share the link with the user. My favorite part of this project was getting the live note display function working."
     },
     {
         "name": "CAVA Calculator",
         "word1": "React",
-        "word2": "Vanilla CSS",
+        "word2": "Custom CSS",
         "word3": "JQuery",
         "image": "cava",
         "alt": "Cup with CAVA logo on it, a CAVA greens and grains bowl, and a CAVA gyro",

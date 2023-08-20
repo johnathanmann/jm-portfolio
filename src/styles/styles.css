@@ -1,35 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
+:root{
+    --white: #F7F4ED;
+    --black: #333335;
+    --red: #E63636;
+    --blue: #3F8FB7;
+    --yellow: #F9CD54;
 }
 
 body{
-    overflow-x: hidden;
-    margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    -webkit-tap-highlight-color: transparent;
-    scroll-behavior: smooth;
-}
-
-#root{
-    background-color: #000;
-}
-
-@font-face {
-    font-family: Woodland;
-    src: url(../assets/fonts/PPWoodland-Ultralight.otf);
-}
-
-@font-face {
-    font-family: Woodland-Bold;
-    src: url(../assets/fonts/PPWoodland-Bold.otf);
+    background-image: url(../assets/imgs/bg-img.png);
 }
 
 @font-face {
@@ -37,28 +15,22 @@ body{
     src: url(../assets/fonts/Hello-KookyCloud-ExtraKooky.otf);
 }
 
-.header{
+.hello-kooky{
     font-family: Hello-Kooky;
-    color: #ddd7d5;
-    font-size: 50px;
-    border-bottom: 1px solid #ddd7d5;
 }
 
-.p-text{
-    font-family: Woodland;
-    color: #ddd7d5;
-    font-size: 25px;
+.duper-regular{
+    font-family: "duper", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #000; 
-  }
+.duper-bold{
+    font-family: "duper", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
 
-  ::-webkit-scrollbar-thumb {
-    background: #ddd7d5; 
-    border-radius: 10px;
-  }
+.black{
+    color: var(--black);
+}

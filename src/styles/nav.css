@@ -1,39 +1,32 @@
-#nav {
-    position: sticky;
-    top: 0;
-    z-index: 1;
+nav{
+    justify-content: space-between;
 }
 
-#nav ul{
-    border: 1px solid #ddd7d5;
-    background-color: #000;
-    border-radius: 10px;
-    top: 0px;
-    right: 0px;
-    position: absolute;
-    margin: 10px;
-    padding: 20px;
+nav img{
+    height: 8vh;
 }
 
-#nav li{
-    all: unset;
-    text-decoration: none;
-    list-style: none;
-    color: #ddd7d5;
+nav li{
     display: inline;
-    margin: 10px;
-    font-family: Woodland;
-    font-size: 25px;
 }
 
-a{
-    all: unset !important;
+nav button{
+    all: unset;
+    font-size: 24px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px;
 }
 
-@media (max-width: 576px){
-    #nav ul{
-        left: 35px;
-        margin: 20px auto;
-        right: auto;
-    }
+#projects-btn{
+    color: var(--yellow);
 }
+
+#about-btn{
+    color: var(--blue);
+}
+
+#contact-btn{
+    color: var(--red);
+}
+

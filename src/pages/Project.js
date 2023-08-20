@@ -1,6 +1,17 @@
 import { useLocation } from "react-router-dom";
 import "../styles/project.css";
 import projects from "../assets/projects.json";
+// import html from "../assets/imgs/html-icon.png";
+// import css from "../assets/imgs/css-icon.png";
+// import js from "../assets/imgs/js-icon.png";
+// import react from "../assets/imgs/react-icon.png";
+// import mongo from "../assets/imgs/mongo.png";
+// import node from "../assets/imgs/node.png";
+// import portrait from "../assets/imgs/portrait.png";
+// import envelope from "../assets/imgs/envelope.jpg";
+// import barbecue from "../assets/imgs/barbecue.jpg";
+// import computer2 from "../assets/imgs/computer-2.jpg";
+// import cava from "../assets/imgs/cava.jpg";
   
 export default function Project(){
     const {state} = useLocation();
