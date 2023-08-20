@@ -2,14 +2,14 @@
     font-size: calc(1.625rem + 7vw);
     z-index: 10;
     position: relative;
-    margin-top: 20vh;
-    text-shadow: 2px 2px var(--white);
+    margin-top: 15vh;
+    text-shadow: 5px 2px var(--white);
 }
 
 #home h2{
     position: relative;
     z-index: 10;
-    text-shadow: 2px 2px var(--white);
+    text-shadow: 3px 2px var(--white);
 }
 
 #j:hover{
@@ -58,10 +58,10 @@
 }
 
 .circles li:nth-child(1){
-    left: 25%;
+    left: 20%;
     width: 15vh;
     height: 15vh;
-    animation-delay: 0s;
+    animation-delay: 2s;
     content: url(../assets/imgs/yellow-smiley.png);
 }
 
@@ -79,15 +79,15 @@
     left: 70%;
     width: 10vh;
     height: 10vh;
-    animation-delay: 4s;
+    animation-delay: 7s;
     content: url(../assets/imgs/red-smiley.png);
 }
 
 .circles li:nth-child(4){
-    left: 40%;
+    left: 35%;
     width: 13vh;
     height: 13vh;
-    animation-delay: 0s;
+    animation-delay: 8s;
     animation-duration: 18s;
     content: url(../assets/imgs/blue-smiley.png);
 }
@@ -112,7 +112,7 @@
     left: 35%;
     width: 27vh;
     height: 27vh;
-    animation-delay: 7s;
+    animation-delay: 0s;
     animation-duration: 25s;
     content: url(../assets/imgs/red-smiley.png);
 }

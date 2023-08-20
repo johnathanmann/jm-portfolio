@@ -16,17 +16,22 @@ nav button{
     border: 2px solid;
     border-radius: 5px;
     padding: 5px;
+    position: relative;
+    z-index: 10;
 }
 
 #projects-btn{
     color: var(--yellow);
+    background-color: var(--white);
 }
 
 #about-btn{
     color: var(--blue);
+    background-color: var(--white);
 }
 
 #contact-btn{
     color: var(--red);
+    background-color: var(--white);
 }
 
