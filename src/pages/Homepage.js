@@ -1,30 +1,33 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
 import "../styles/home.css";
-
 
 export default function Homepage(){
     return(
-        <main className="container-fluid text-center mx-auto" id="home">
-            <header className="row">
-                <div className="col-12">
-                    <div className="row">
-                        <h1 className="sans-serif-bold mt-5">I'M JOHNNY <span id="sub-header">WEB DEVELOPER 2023</span></h1>
+        <main id="home">
+            <header className="container-fluid">
+                <div className="row">
+                    <div className="col-12" id="area">
+                        <h1 className="black hello-kooky ms-3">Hi, I'm <span>J</span><span>o</span><span>h</span><span>n</span><span>n</span><span>y</span></h1>
+                        <h2 className="duper-bold black display-5 ms-3">Creative Developer & Designer</h2>
+                            <ul className="circles">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
                     </div>
                 </div>
             </header>
-            <section className="row" id="home-buttons">
-                <div className="col-sm-4 d-flex mx-auto justify-content-center">
-                    <button className="sans-serif">&#x2022; About</button>
-                </div>
-                <div className="col-sm-4 d-flex mx-auto justify-content-center">
-                    <button className="sans-serif">&#x2022; Projects</button>
-                </div>
-                <div className="col-sm-4 d-flex mx-auto justify-content-center">
-                    <button className="sans-serif">&#x2022; Contact</button>
-                </div>
-            </section>
         </main>
     )
 }
