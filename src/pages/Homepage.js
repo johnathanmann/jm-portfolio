@@ -5,13 +5,15 @@ import html from "../assets/imgs/html-icon.png";
 import css from "../assets/imgs/css-icon.png";
 import js from "../assets/imgs/js-icon.png";
 import react from "../assets/imgs/react-icon.png";
-import mongo from "../assets/imgs/mongo.png";
+import mongo from "../assets/imgs/mongodb.png";
 import node from "../assets/imgs/node.png";
 import bootstrap4 from "../assets/imgs/bootstrap4.png";
 import bootstrap5 from "../assets/imgs/bootstrap5.png";
 import handlebars from "../assets/imgs/handlebars.png";
 import photoshop from "../assets/imgs/photoshop.png";
-let icons = {html, css, js, react, mongo, node, bootstrap4, bootstrap5, handlebars, photoshop}
+import mysql from "../assets/imgs/mysql.png";
+import jquery from "../assets/imgs/jquery.png";
+let icons = {html, css, js, react, mongo, node, bootstrap4, bootstrap5, handlebars, photoshop, mysql, jquery}
 
 export default function Homepage(){
     return(
@@ -45,11 +47,11 @@ export default function Homepage(){
                     <h1 className="duper-bold display-1 black">../Projects</h1>
                 </div>
                 {projects.map((project, index)=>{
-                return <section className="project d-flex w-80">
-                            <h1>{projects[index].name}<span className="tag"> Full stack project</span></h1>
+                return <section className={projects[index].projectClass}>
+                            <h1 className="duper-bold mt-2">{projects[index].name}<span className="tag"> Full stack project</span></h1>
                             <ul>
                             {projects[index].icons.map((icon, index)=>{
-                                return <li><img className="img-fluid" src={icons[icon]} alt={projects[index].alt}/></li>})}
+                                return <li><img className="img-fluid" src={icons[icon]}/></li>})}
                             </ul>
                     </section>
                 })}

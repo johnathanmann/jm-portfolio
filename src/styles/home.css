@@ -215,6 +215,22 @@
     margin-left: 15px;
 }
 
-.project li{
-    margin: auto 0px;
+.project img{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 10px 0px 10px
+}
+
+.bg-red img{
+    background-color: var(--red);
+}
+
+.bg-yellow img{
+    background-color: var(--yellow);
+}
+
+.bg-blue img{
+    background-color: var(--blue);
 }

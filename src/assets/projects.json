@@ -9,6 +9,7 @@
             "handlebars",
             "bootstrap4"
         ],
+        "projectClass":"project d-flex w-80 yellow bg-yellow",
         "image": "barbecue",
         "tagline": "Bootcamp group project",
         "repo": "https://github.com/johnathanmann/Seared",
@@ -25,6 +26,7 @@
             "mongo",
             "jquery"
         ],
+        "projectClass":"project d-flex w-80 blue bg-blue",
         "image": "envelope",
         "alt": "Pile of opened and unopened envelopes",
         "tagline": "MERN stack project",
@@ -40,6 +42,7 @@
             "react",
             "jquery"
         ],
+        "projectClass":"project d-flex w-80 red bg-red",
         "image": "cava",
         "alt": "Cup with CAVA logo on it, a CAVA greens and grains bowl, and a CAVA gyro",
         "tagline": "Front end React project",
@@ -55,6 +58,7 @@
             "photoshop",
             "bootstrap5"
         ],
+        "projectClass":"project d-flex w-80 yellow bg-yellow",
         "image": "cans",
         "tagline": "Mock beverage brand site",
         "repo": "https://github.com/johnathanmann/siplicity",
