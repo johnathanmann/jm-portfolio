@@ -4,6 +4,7 @@ import {
   Route
 } from "react-router-dom";
 import Nav from "./layouts/Nav";
+import Footer from "./layouts/Footer";
 import Homepage from "./pages/Homepage";
 import Project from "./pages/Project"
 
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/project" element={<Project />}/>
       </Routes>
+      <Footer />
     </HashRouter>
   </div>
   );

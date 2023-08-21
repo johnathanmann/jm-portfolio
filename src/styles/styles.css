@@ -47,3 +47,8 @@ body{
 .blue{
     color: var(--blue);
 }
+
+
+footer img{
+    height: 8vh;
+}
