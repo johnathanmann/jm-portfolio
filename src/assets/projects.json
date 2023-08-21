@@ -4,6 +4,11 @@
         "word1": "MYSQL",
         "word2": "Handlebars.js",
         "word3": "Bootstrap 4",
+        "icons":[
+            "mysql",
+            "handlebars",
+            "bootstrap4"
+        ],
         "image": "barbecue",
         "tagline": "Bootcamp group project",
         "repo": "https://github.com/johnathanmann/Seared",
@@ -15,6 +20,11 @@
         "word1": "React",
         "word2": "MongoDb",
         "word3": "JQuery",
+        "icons":[
+            "react",
+            "mongo",
+            "jquery"
+        ],
         "image": "envelope",
         "alt": "Pile of opened and unopened envelopes",
         "tagline": "MERN stack project",
@@ -25,13 +35,30 @@
     {
         "name": "CAVA Calculator",
         "word1": "React",
-        "word2": "Custom CSS",
         "word3": "JQuery",
+        "icons":[
+            "react",
+            "jquery"
+        ],
         "image": "cava",
         "alt": "Cup with CAVA logo on it, a CAVA greens and grains bowl, and a CAVA gyro",
         "tagline": "Front end React project",
         "repo": "https://github.com/johnathanmann/cava-calculator",
         "deployment": "https://johnathanmann.github.io/cava-calculator/",
         "desc": "CAVA Calculator was a fun little practice in DOM manipulation via React. I put an emphasis on using semantic tags as it's been a weak point in some of my other works. When it came to the design of the site I tried to imitate that of the actual CAVA website in an effort to understand how the sites I am inspired by are made. "
+    },
+    {
+        "name": "Siplicity",
+        "word2": "Adobe Photoshop",
+        "word3": "Bootstrap 5",
+        "icons":[
+            "photoshop",
+            "bootstrap5"
+        ],
+        "image": "cans",
+        "tagline": "Mock beverage brand site",
+        "repo": "https://github.com/johnathanmann/siplicity",
+        "deployment": "https://johnathanmann.github.io/siplicity/",
+        "desc": "This project primarily centered around front-end design, offering an enjoyable opportunity to delve into color selection and animation techniques. Opting for a return to fundamentals, I chose to forgo the complexities of my typical React sites in favor of a streamlined design endeavor. The graphics used were made using photoshop both from purchased assets and my own designs. My favorite part of this project was creating my own CSS animations."
     }
 ]

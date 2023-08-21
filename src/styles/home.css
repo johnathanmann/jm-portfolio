@@ -1,4 +1,4 @@
-#home h1{
+#home header h1{
     font-size: calc(1.625rem + 7vw);
     z-index: 10;
     position: relative;
@@ -6,7 +6,7 @@
     text-shadow: 5px 2px var(--white);
 }
 
-#home h2{
+#home header h2{
     position: relative;
     z-index: 10;
     text-shadow: 3px 2px var(--white);
@@ -191,4 +191,30 @@
         border-radius: 50%;
     }
 
+}
+
+#projects section{
+    justify-content: space-between;
+}
+
+#projects section li{
+    all: unset;
+    vertical-align: middle;
+}
+
+.project{
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid;
+    margin: 20px;
+    padding: 10px;
+}
+
+.tag{
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.project li{
+    margin: auto 0px;
 }

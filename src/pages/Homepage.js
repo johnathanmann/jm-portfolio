@@ -1,5 +1,17 @@
 import React from "react";
 import "../styles/home.css";
+import projects from "../assets/projects.json";
+import html from "../assets/imgs/html-icon.png";
+import css from "../assets/imgs/css-icon.png";
+import js from "../assets/imgs/js-icon.png";
+import react from "../assets/imgs/react-icon.png";
+import mongo from "../assets/imgs/mongo.png";
+import node from "../assets/imgs/node.png";
+import bootstrap4 from "../assets/imgs/bootstrap4.png";
+import bootstrap5 from "../assets/imgs/bootstrap5.png";
+import handlebars from "../assets/imgs/handlebars.png";
+import photoshop from "../assets/imgs/photoshop.png";
+let icons = {html, css, js, react, mongo, node, bootstrap4, bootstrap5, handlebars, photoshop}
 
 export default function Homepage(){
     return(
@@ -28,6 +40,20 @@ export default function Homepage(){
                     </div>
                 </div>
             </header>
+            <article id="projects" className="container mt-5">
+                <div className="row mt-5">
+                    <h1 className="duper-bold display-1 black">../Projects</h1>
+                </div>
+                {projects.map((project, index)=>{
+                return <section className="project d-flex w-80">
+                            <h1>{projects[index].name}<span className="tag"> Full stack project</span></h1>
+                            <ul>
+                            {projects[index].icons.map((icon, index)=>{
+                                return <li><img className="img-fluid" src={icons[icon]} alt={projects[index].alt}/></li>})}
+                            </ul>
+                    </section>
+                })}
+            </article>
         </main>
     )
 }
