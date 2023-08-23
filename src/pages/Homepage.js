@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/home.css";
 import projects from "../assets/projects.json";
 import html from "../assets/imgs/html-icon.png";
@@ -48,7 +49,7 @@ export default function Homepage(){
                 </div>
                 {projects.map((project, index)=>{
                 return <section className={projects[index].projectClass}>
-                            <h1 className="duper-bold mt-2">{projects[index].name}<span className="tag"> Full stack project</span></h1>
+                            <h1 className="duper-bold mt-2"><Link to={"/project"} state={{ some: projects[index].name }}>{projects[index].name}</Link><span className="tag"> Full stack project</span></h1>
                             <ul>
                             {projects[index].icons.map((icon, index)=>{
                                 return <li><img className="img-fluid" src={icons[icon]}/></li>})}

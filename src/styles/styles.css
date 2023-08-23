@@ -48,7 +48,30 @@ body{
     color: var(--blue);
 }
 
+a{
+    all: unset;
+}
 
-footer img{
+a:hover{
+    all: unset;
+}
+
+.grow{
+    transition: all 0.3s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.05);
+    cursor: default;
+}
+
+footer #footer-smiley{
     height: 8vh;
+}
+
+footer a:hover{
+    all: unset;
+    font-family: "duper", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }

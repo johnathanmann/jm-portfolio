@@ -5,9 +5,9 @@ export default function Nav(){
         <nav className="container-fluid w-100 d-flex p-2" id="nav">
             <img src={smiley} alt="Black smiley face icon" />
             <ul>
-                <li><button id="projects-btn" className="duper-bold m-2">Projects</button></li>
-                <li className="duper-bold m-2"><button id="about-btn">About</button></li>
-                <li className="duper-bold m-2"><button id="contact-btn">Contact</button></li>
+                <li><button id="projects-btn" className="duper-bold m-2 grow">Projects</button></li>
+                <li><button id="about-btn" className="duper-bold m-2 grow">About</button></li>
+                <li><button id="contact-btn" className="duper-bold m-2 grow">Contact</button></li>
             </ul>
         </nav>
     )
