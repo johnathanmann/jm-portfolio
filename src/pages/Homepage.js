@@ -1,20 +1,19 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/home.css";
 import projects from "../assets/projects.json";
-import html from "../assets/imgs/html-icon.png";
-import css from "../assets/imgs/css-icon.png";
-import js from "../assets/imgs/js-icon.png";
-import react from "../assets/imgs/react-icon.png";
-import mongo from "../assets/imgs/mongodb.png";
-import node from "../assets/imgs/node.png";
-import bootstrap4 from "../assets/imgs/bootstrap4.png";
-import bootstrap5 from "../assets/imgs/bootstrap5.png";
-import handlebars from "../assets/imgs/handlebars.png";
-import photoshop from "../assets/imgs/photoshop.png";
-import mysql from "../assets/imgs/mysql.png";
-import jquery from "../assets/imgs/jquery.png";
-let icons = {html, css, js, react, mongo, node, bootstrap4, bootstrap5, handlebars, photoshop, mysql, jquery}
+import HTML from "../assets/imgs/html-icon.png";
+import CSS from "../assets/imgs/css-icon.png";
+import JavaScript from "../assets/imgs/js-icon.png";
+import React from "../assets/imgs/react-icon.png";
+import MongoDB from "../assets/imgs/mongodb.png";
+import Nodejs from "../assets/imgs/node.png";
+import Bootstrap4 from "../assets/imgs/bootstrap4.png";
+import Bootstrap5 from "../assets/imgs/bootstrap5.png";
+import Handlebarsjs from "../assets/imgs/handlebars.png";
+import Photoshop from "../assets/imgs/photoshop.png";
+import MySQL from "../assets/imgs/mysql.png";
+import jQuery from "../assets/imgs/jquery.png";
+let icons = {HTML, CSS, JavaScript, React, MongoDB, Nodejs, Bootstrap4, Bootstrap5, Handlebarsjs, Photoshop, MySQL, jQuery}
 
 export default function Homepage(){
     return(
@@ -49,10 +48,13 @@ export default function Homepage(){
                 </div>
                 {projects.map((project, index)=>{
                 return <section className={projects[index].projectClass}>
-                            <h1 className="duper-bold mt-2"><Link to={"/project"} state={{ some: projects[index].name }}>{projects[index].name}</Link><span className="tag"> Full stack project</span></h1>
-                            <ul>
+                            <h1 className="duper-bold mt-2"><Link to={"/project"} state={{ some: projects[index].name }}>{projects[index].name}</Link><span className="tag"> {projects[index].type}</span></h1>
+                            <ul className={projects[index].tooltip}>
                             {projects[index].icons.map((icon, index)=>{
-                                return <li><img className="img-fluid" src={icons[icon]}/></li>})}
+                                return <li className="tooltip"><img className="img-fluid icon" src={icons[icon]}/>
+                                <div className="top">
+                                    {icon}<i></i>
+                                </div></li>})}
                             </ul>
                     </section>
                 })}

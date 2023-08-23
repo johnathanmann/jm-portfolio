@@ -200,6 +200,8 @@
 #projects section li{
     all: unset;
     vertical-align: middle;
+    display: inline-block;
+    width: 60px;
 }
 
 .project{
@@ -208,6 +210,7 @@
     border: 2px solid;
     margin: 20px;
     padding: 10px;
+    height: 100px;
 }
 
 .tag{
@@ -220,7 +223,8 @@
     width: 50px;
     padding: 5px;
     border-radius: 5px;
-    margin: 10px 10px 0px 10px
+    margin: 10px 10px 0px 10px;
+    position: relative;
 }
 
 .bg-red img{
@@ -233,4 +237,40 @@
 
 .bg-blue img{
     background-color: var(--blue);
+}
+
+.tooltip {
+    display:inline-block;
+    position:relative;
+    border-bottom:1px dotted #666;
+    text-align:left;
+}
+
+.tooltip .top {
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+    top:-60px;
+    transform:translate(-50%, -100%);
+    padding:10px;
+    margin-left: 35px;
+    position: relative;
+    text-align: center;
+    visibility:hidden; opacity:0; transition:opacity 0.8s;
+}
+
+.tooltip:hover .top {
+    visibility:visible; opacity:1;
+}
+
+.yellow-icon .top{
+    background-color: var(--yellow);
+}
+
+.blue-icon .top{
+    background-color: var(--blue);
+}
+
+.red-icon .top{
+    background-color: var(--red);
 }

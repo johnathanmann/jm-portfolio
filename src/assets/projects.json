@@ -1,14 +1,13 @@
 [
     {
         "name": "Seared",
-        "word1": "MYSQL",
-        "word2": "Handlebars.js",
-        "word3": "Bootstrap 4",
+        "type": "Full stack project",
         "icons":[
-            "mysql",
-            "handlebars",
-            "bootstrap4"
+            "MySQL",
+            "Handlebarsjs",
+            "Bootstrap4"
         ],
+        "tooltip":"yellow-icon",
         "projectClass":"project d-flex w-80 yellow bg-yellow grow",
         "image": "barbecue",
         "tagline": "Bootcamp group project",
@@ -18,14 +17,13 @@
 
     },{
         "name": "A Note To You",
-        "word1": "React",
-        "word2": "MongoDb",
-        "word3": "JQuery",
+        "type": "Full stack project",
         "icons":[
-            "react",
-            "mongo",
-            "jquery"
+            "React",
+            "MongoDB",
+            "jQuery"
         ],
+        "tooltip":"blue-icon",
         "projectClass":"project d-flex w-80 blue bg-blue grow",
         "image": "envelope",
         "alt": "Pile of opened and unopened envelopes",
@@ -36,12 +34,12 @@
     },
     {
         "name": "CAVA Calculator",
-        "word1": "React",
-        "word3": "JQuery",
+        "type": "Front end project",
         "icons":[
-            "react",
-            "jquery"
+            "React",
+            "jQuery"
         ],
+        "tooltip":"red-icon",
         "projectClass":"project d-flex w-80 red bg-red grow",
         "image": "cava",
         "alt": "Cup with CAVA logo on it, a CAVA greens and grains bowl, and a CAVA gyro",
@@ -52,12 +50,12 @@
     },
     {
         "name": "Siplicity",
-        "word2": "Adobe Photoshop",
-        "word3": "Bootstrap 5",
+        "type": "Web design project",
         "icons":[
-            "photoshop",
-            "bootstrap5"
+            "Photoshop",
+            "Bootstrap5"
         ],
+        "tooltip":"yellow-icon",
         "projectClass":"project d-flex w-80 yellow bg-yellow grow",
         "image": "cans",
         "tagline": "Mock beverage brand site",

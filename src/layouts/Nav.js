@@ -3,7 +3,7 @@ import "../styles/nav.css";
 export default function Nav(){
     return(
         <nav className="container-fluid w-100 d-flex p-2" id="nav">
-            <img src={smiley} alt="Black smiley face icon" />
+            <img src={smiley} alt="Black smiley face icon" m-2 />
             <ul>
                 <li><button id="projects-btn" className="duper-bold m-2 grow">Projects</button></li>
                 <li><button id="about-btn" className="duper-bold m-2 grow">About</button></li>
