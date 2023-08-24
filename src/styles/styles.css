@@ -42,6 +42,7 @@ body{
 
 .yellow{
     color: var(--yellow);
+    border-color: var(--yellow);
 }
 
 .blue{

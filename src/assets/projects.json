@@ -7,6 +7,7 @@
             "Handlebarsjs",
             "Bootstrap4"
         ],
+        "color":"yellow",
         "tooltip":"yellow-icon",
         "projectClass":"project d-flex w-80 yellow bg-yellow grow",
         "image": "barbecue",
@@ -23,6 +24,7 @@
             "MongoDB",
             "jQuery"
         ],
+        "color":"blue",
         "tooltip":"blue-icon",
         "projectClass":"project d-flex w-80 blue bg-blue grow",
         "image": "envelope",
@@ -39,6 +41,7 @@
             "React",
             "jQuery"
         ],
+        "color":"red",
         "tooltip":"red-icon",
         "projectClass":"project d-flex w-80 red bg-red grow",
         "image": "cava",
@@ -55,6 +58,7 @@
             "Photoshop",
             "Bootstrap5"
         ],
+        "color":"yellow",
         "tooltip":"yellow-icon",
         "projectClass":"project d-flex w-80 yellow bg-yellow grow",
         "image": "cans",
