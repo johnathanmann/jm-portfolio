@@ -35,3 +35,18 @@ nav button{
     background-color: var(--white);
 }
 
+.project-active{
+    background-color: var(--yellow);
+    color: var(--white);
+}
+
+.about-active{
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.contact-active{
+    background-color: var(--red);
+    color: var(--white);
+}
+
