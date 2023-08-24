@@ -1,17 +1,11 @@
 import { useLocation } from "react-router-dom";
 import "../styles/project.css";
 import projects from "../assets/projects.json";
-// import html from "../assets/imgs/html-icon.png";
-// import css from "../assets/imgs/css-icon.png";
-// import js from "../assets/imgs/js-icon.png";
-// import react from "../assets/imgs/react-icon.png";
-// import mongo from "../assets/imgs/mongo.png";
-// import node from "../assets/imgs/node.png";
-// import portrait from "../assets/imgs/portrait.png";
-// import envelope from "../assets/imgs/envelope.jpg";
-// import barbecue from "../assets/imgs/barbecue.jpg";
-// import computer2 from "../assets/imgs/computer-2.jpg";
-// import cava from "../assets/imgs/cava.jpg";
+import yellow from "../assets/imgs/yellow-smiley.png";
+import red from "../assets/imgs/red-smiley.png";
+import blue from "../assets/imgs/blue-smiley.png";
+
+let smileys = {yellow, red, blue};
   
 export default function Project(){
     const {state} = useLocation();
@@ -19,20 +13,11 @@ export default function Project(){
     const wantedProject = projects.filter(function(i) {
         return i.name === state.some;
     });
-
+console.log(wantedProject[0].color)
     return(
         <div id="project">
-            <header id='marquees'>
-                <div className="marquee" id="language">
-                    <div className="marquee__inner" aria-hidden="true">
-                        <span className={wantedProject[0].color}>{wantedProject[0].name}</span>
-                        <span className={wantedProject[0].color}>{wantedProject[0].name}</span>
-                        <span className={wantedProject[0].color}>{wantedProject[0].name}</span>
-                        <span className={wantedProject[0].color}>{wantedProject[0].name}</span>
-                        <span className={wantedProject[0].color}>{wantedProject[0].name}</span>
-                        <span className={wantedProject[0].color}>{wantedProject[0].name}</span>
-                    </div>
-                </div>
+            <header className="d-flex">
+                <h1 className={wantedProject[0].color}>{wantedProject[0].name}</h1><img src={smileys[wantedProject[0].color]} />
             </header>
             <article className="container">
                 <div className="row">
