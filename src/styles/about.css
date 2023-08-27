@@ -8,4 +8,9 @@
 
 #about ul{
     font-size: 30px;
+    list-style:none;
+}
+
+#about li::before{
+    content: "- ";
 }
