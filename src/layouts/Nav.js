@@ -31,7 +31,7 @@ export default function Nav(){
         },[location])
 
     return(
-        <nav className="container-fluid w-100 d-flex p-2" id="nav">
+        <nav data-aos="fade-up" className="container-fluid w-100 d-flex p-2" id="nav">
             <img src={smiley} alt="Black smiley face icon" m-2 />
             <ul>
                 <li className="duper-bold m-2 grow"><NavLink to="/"><button id="projects-btn" style={{ backgroundColor: active === "projects" ? "#E63636" : "#F7F4ED", color: active === "projects" ? "#FFF" : "#E63636" }}>Projects</button></NavLink></li>
