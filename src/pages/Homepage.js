@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import "../styles/home.css";
 import projects from "../assets/projects.json";
 import HTML from "../assets/imgs/html-icon.png";
@@ -15,9 +16,14 @@ import MySQL from "../assets/imgs/mysql.png";
 import jQuery from "../assets/imgs/jquery.png";
 let icons = {HTML, CSS, JavaScript, React, MongoDB, Nodejs, Bootstrap4, Bootstrap5, Handlebarsjs, Photoshop, MySQL, jQuery}
 
+
 export default function Homepage(){
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return(
         <main id="home">
+            <div id="home-cover" className="slide-over"></div>
             <header className="container-fluid">
                 <div className="row">
                     <div className="col-12" id="area">
@@ -47,7 +53,7 @@ export default function Homepage(){
                     <h1 data-aos="fade-up" className="duper-bold display-1 black">../Projects</h1>
                 </div>
                 {projects.map((project, index)=>{
-                return <section data-aos="fade-up" className={projects[index].projectClass}>
+                return <section data-aos="fade-up" data-aos-offset="100" className={projects[index].projectClass}>
                             <h1 className="duper-bold mt-2"><Link to={"/project"} state={{ some: projects[index].name }}>{projects[index].name}</Link><span className="tag"> {projects[index].type}</span></h1>
                             <ul className={projects[index].tooltip}>
                             {projects[index].icons.map((icon, index)=>{
