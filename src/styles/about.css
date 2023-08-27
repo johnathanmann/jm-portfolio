@@ -1,0 +1,11 @@
+#about header h1{
+    font-size: calc(1.625rem + 7vw);
+}
+
+#skills h1{
+    font-size: calc(1.625rem + 3vw);
+}
+
+#about ul{
+    font-size: 30px;
+}
