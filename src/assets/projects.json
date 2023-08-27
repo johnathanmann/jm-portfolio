@@ -11,6 +11,10 @@
         "tooltip":"yellow-icon",
         "projectClass":"project d-flex w-80 yellow bg-yellow grow",
         "tagline": "Bootcamp group project",
+        "tags":[
+            "Fullstack",
+            "Site Design"
+        ],
         "repo": "https://github.com/johnathanmann/Seared",
         "deployment": "https://seared-project-2.herokuapp.com/",
         "desc":"Seared was a super fun project I did with some great developers in my coding bootcamp. The goal of the project was to make a full stack website that solved a real world problem. Our problem was the age old question of “What's for dinner?”. I did all of the designing on this project which I think turned out great. One of our biggest challenges were merge conflicts with the recipes.JSON file. The problem being is we each had a different version of the file when we tried to push it. We solved this by being more conscious of what we were pushing and when we were pulling."
@@ -27,6 +31,11 @@
         "tooltip":"blue-icon",
         "projectClass":"project d-flex w-80 blue bg-blue grow",
         "tagline": "MERN stack project",
+        "tags":[
+            "Fullstack",
+            "Site Design",
+            "Backend Development"
+        ],
         "repo": "https://github.com/johnathanmann/a-note-to-you",
         "deployment": "https://a-note-to-you.herokuapp.com/",
         "desc": "A Note to You is a project I did for the sake of sending my friends cute notes with a fun animation. This was a solo project that I did to practice my REST skills. My biggest challenge with this site was creating shared links for the notes. The solution ended up being creating an additional id with uniqid npm that could be created before the post was made to the database making it possible to share the link with the user. My favorite part of this project was getting the live note display function working."
@@ -42,6 +51,9 @@
         "tooltip":"red-icon",
         "projectClass":"project d-flex w-80 red bg-red grow",
         "tagline": "Front end React project",
+        "tags":[
+            "Site Design"
+        ],
         "repo": "https://github.com/johnathanmann/cava-calculator",
         "deployment": "https://johnathanmann.github.io/cava-calculator/",
         "desc": "CAVA Calculator was a fun little practice in DOM manipulation via React. I put an emphasis on using semantic tags as it's been a weak point in some of my other works. When it came to the design of the site I tried to imitate that of the actual CAVA website in an effort to understand how the sites I am inspired by are made. "
@@ -57,6 +69,9 @@
         "tooltip":"yellow-icon",
         "projectClass":"project d-flex w-80 yellow bg-yellow grow",
         "tagline": "Mock beverage brand site",
+        "tags":[
+            "Site Design"
+        ],
         "repo": "https://github.com/johnathanmann/siplicity",
         "deployment": "https://johnathanmann.github.io/siplicity/",
         "desc": "This project primarily centered around front-end design, offering an enjoyable opportunity to delve into color selection and animation techniques. Opting for a return to fundamentals, I chose to forgo the complexities of my typical React sites in favor of a streamlined design endeavor. The graphics used were made using photoshop both from purchased assets and my own designs. My favorite part of this project was creating my own CSS animations."

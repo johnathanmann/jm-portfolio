@@ -1,3 +1,9 @@
+#project header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 #project header h1{
     font-family: Hello-Kooky;
     font-size: calc(1.625rem + 7vw);
@@ -9,12 +15,24 @@
     margin: 2vh 0;
 }
 
+.project-tag{
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
 #info{
     padding-top: 10vh;
 }
 
 #info h1{
-    border-bottom: 1px solid var(--black);
+    border-bottom: 2px solid var(--black);
 }
 
 #info p{

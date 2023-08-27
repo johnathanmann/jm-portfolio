@@ -16,8 +16,12 @@ export default function Project(){
 console.log(wantedProject[0].color)
     return(
         <div id="project">
-            <header className="d-flex">
-                <h1 className={wantedProject[0].color}>{wantedProject[0].name}</h1><img src={smileys[wantedProject[0].color]} />
+            <header className={wantedProject[0].color}>
+                <h1 className={wantedProject[0].color}>{wantedProject[0].name}</h1>
+                <ul>
+                {wantedProject[0].tags.map((tag, index)=>{
+                                return <li className="project-tag duper-bold">{tag}</li>})}
+                </ul>
             </header>
             <article className="container">
                 <div className="row">
