@@ -191,11 +191,19 @@
         transform: translateY(-1000px) rotate(720deg);
         border-radius: 50%;
     }
+}
 
+#projects{
+    margin-top: 10vh;
+}
+
+#projects .hello-kooky{
+    margin: 50px 10vw 25px ;
 }
 
 #projects section{
     justify-content: space-between;
+    margin: 20px auto;
 }
 
 #projects section li{
@@ -212,6 +220,7 @@
     margin: 20px;
     padding: 10px;
     height: 100px;
+    width: 80vw;
 }
 
 .tag{
@@ -274,4 +283,35 @@
 
 .red-icon .top{
     background-color: var(--red);
+}
+
+@media (max-width: 768px){
+
+    .project{
+        width: 90vw;
+        height: fit-content;
+    }
+
+    .project img{
+        height: 40px;
+        width: 40px;
+    }
+
+    #projects section{
+        height: 4vh;
+    }
+
+    #projects section li {
+        width: 50px;
+    }
+}
+
+@media (max-width: 576px){
+    .project h1, .tag{
+        display: block;
+    }
+
+    .tag{
+        margin-left: 0;
+    }
 }

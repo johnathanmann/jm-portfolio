@@ -48,9 +48,9 @@ export default function Homepage(){
                     </div>
                 </div>
             </header>
-            <article id="projects" className="container mt-5">
-                <div className="row mt-5">
-                    <h1 data-aos="fade-up" className="duper-bold display-1 black">../Projects</h1>
+            <article id="projects" className="container-fluid mx-auto">
+                <div className="row">
+                    <h1 data-aos="fade-up" className="hello-kooky display-1 black">Projects</h1>
                 </div>
                 {projects.map((project, index)=>{
                 return <section data-aos="fade-up" data-aos-offset="100" className={projects[index].projectClass}>

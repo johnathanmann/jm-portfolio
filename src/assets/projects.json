@@ -9,7 +9,7 @@
         ],
         "color":"yellow",
         "tooltip":"yellow-icon",
-        "projectClass":"project d-flex w-80 yellow bg-yellow grow",
+        "projectClass":"project d-flex yellow bg-yellow grow",
         "tagline": "Bootcamp group project",
         "tags":[
             "Fullstack",
@@ -29,7 +29,7 @@
         ],
         "color":"blue",
         "tooltip":"blue-icon",
-        "projectClass":"project d-flex w-80 blue bg-blue grow",
+        "projectClass":"project d-flex blue bg-blue grow",
         "tagline": "MERN stack project",
         "tags":[
             "Fullstack",
@@ -49,7 +49,7 @@
         ],
         "color":"red",
         "tooltip":"red-icon",
-        "projectClass":"project d-flex w-80 red bg-red grow",
+        "projectClass":"project d-flex red bg-red grow",
         "tagline": "Front end React project",
         "tags":[
             "Site Design"
@@ -67,7 +67,7 @@
         ],
         "color":"yellow",
         "tooltip":"yellow-icon",
-        "projectClass":"project d-flex w-80 yellow bg-yellow grow",
+        "projectClass":"project d-flex yellow bg-yellow grow",
         "tagline": "Mock beverage brand site",
         "tags":[
             "Site Design"
