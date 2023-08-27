@@ -15,6 +15,9 @@ import Project from "./pages/Project"
 
 export default function App() {
   useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  useEffect(() => {
     AOS.init();
   }, [])
   return (
