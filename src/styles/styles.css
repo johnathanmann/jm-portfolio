@@ -9,10 +9,9 @@
 body{
     background-color: var(--white);
     overflow-x: hidden;
-}
-
-html{
-    overflow-x: hidden;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 @font-face {
@@ -67,11 +66,13 @@ html{
 }
 
 a{
-    all: unset;
+    color: initial;
+    text-decoration: none;
 }
 
 a:hover{
-    all: unset;
+    color: initial;
+    text-decoration: none;
 }
 
 .grow{

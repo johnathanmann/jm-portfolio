@@ -198,7 +198,7 @@
 }
 
 #projects .hello-kooky{
-    margin: 10px 10vw 25px ;
+    margin: 10px 10vw;
 }
 
 #projects section{
@@ -286,6 +286,10 @@
 }
 
 @media (max-width: 768px){
+
+    #projects .hello-kooky{
+        margin: 10px 5vw;
+    }
 
     .project{
         width: 90vw;
