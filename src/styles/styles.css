@@ -48,6 +48,25 @@ body{
     font-style: normal;
 }
 
+a{
+    color: unset;
+    text-decoration: none;
+}
+
+a:hover{
+    color: unset;
+    text-decoration: none;
+}
+
+.grow{
+    transition: all 0.3s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.05) !important;
+    cursor: default;
+}
+
 .black{
     color: var(--black);
 }
@@ -63,25 +82,6 @@ body{
 
 .blue{
     color: var(--blue);
-}
-
-a{
-    color: initial;
-    text-decoration: none;
-}
-
-a:hover{
-    color: initial;
-    text-decoration: none;
-}
-
-.grow{
-    transition: all 0.3s ease-in-out;
-}
-
-.grow:hover {
-    transform: scale(1.05) !important;
-    cursor: default;
 }
 
 footer #footer-smiley{
