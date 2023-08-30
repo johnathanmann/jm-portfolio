@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jm-portfolio/static/css/main.e2ac1170.css",
-    "main.js": "/jm-portfolio/static/js/main.e5863d2f.js",
+    "main.css": "/jm-portfolio/static/css/main.665bd3ee.css",
+    "main.js": "/jm-portfolio/static/js/main.389e2ffb.js",
     "static/media/Mann.pdf": "/jm-portfolio/static/media/Mann.b4226a41a1a1eeec7304.pdf",
     "static/media/jquery.png": "/jm-portfolio/static/media/jquery.737a5a863b58aeb6dcfe.png",
     "static/media/react-icon.png": "/jm-portfolio/static/media/react-icon.e7708e6e44f444e59d46.png",
@@ -16,11 +16,11 @@
     "static/media/mysql.png": "/jm-portfolio/static/media/mysql.d1d53fafdb34cb0717db.png",
     "static/media/node.png": "/jm-portfolio/static/media/node.62ef11eaf8e96a4184b2.png",
     "index.html": "/jm-portfolio/index.html",
-    "main.e2ac1170.css.map": "/jm-portfolio/static/css/main.e2ac1170.css.map",
-    "main.e5863d2f.js.map": "/jm-portfolio/static/js/main.e5863d2f.js.map"
+    "main.665bd3ee.css.map": "/jm-portfolio/static/css/main.665bd3ee.css.map",
+    "main.389e2ffb.js.map": "/jm-portfolio/static/js/main.389e2ffb.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2ac1170.css",
-    "static/js/main.e5863d2f.js"
+    "static/css/main.665bd3ee.css",
+    "static/js/main.389e2ffb.js"
   ]
 }
