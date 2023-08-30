@@ -1,5 +1,5 @@
-body{
-    overflow-x: hidden;
+#about{
+    overflow-x: hidden !important;
     position:relative;
 }
 
