@@ -294,6 +294,10 @@
     .circles{
         height: 80vh;
     }
+    
+    #area{
+        height:60vh;
+    }
 
     #projects .hello-kooky{
         margin: 20px 5vw;

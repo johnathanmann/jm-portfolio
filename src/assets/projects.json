@@ -20,7 +20,7 @@
         "desc":"Seared was a super fun project I did with some great developers in my coding bootcamp. The goal of the project was to make a full stack website that solved a real world problem. Our problem was the age old question of “What's for dinner?”. I did all of the designing on this project which I think turned out great. One of our biggest challenges were merge conflicts with the recipes.JSON file. The problem being is we each had a different version of the file when we tried to push it. We solved this by being more conscious of what we were pushing and when we were pulling."
 
     },{
-        "name": "A Note To You",
+        "name": "Note To You",
         "type": "Full-stack project",
         "icons":[
             "React",
@@ -38,7 +38,7 @@
         ],
         "repo": "https://github.com/johnathanmann/a-note-to-you",
         "deployment": "https://a-note-to-you.herokuapp.com/",
-        "desc": "A Note to You is a project I did for the sake of sending my friends cute notes with a fun animation. This was a solo project that I did to practice my REST skills. My biggest challenge with this site was creating shared links for the notes. The solution ended up being creating an additional id with uniqid npm that could be created before the post was made to the database making it possible to share the link with the user. My favorite part of this project was getting the live note display function working."
+        "desc": "Note to You is a project I did for the sake of sending my friends cute notes with a fun animation. This was a solo project that I did to practice my REST skills. My biggest challenge with this site was creating shared links for the notes. The solution ended up being creating an additional id with uniqid npm that could be created before the post was made to the database making it possible to share the link with the user. My favorite part of this project was getting the live note display function working."
     },
     {
         "name": "CAVA Calculator",
