@@ -28,7 +28,7 @@ export default function Homepage(){
                 <div className="row">
                     <div className="col-12" id="area">
                         <h1 data-aos="fade-up" className="black hello-kooky ms-3">Hi, I'm <span id="j">J</span><span id="o">o</span><span id="h">h</span><span id="n1">n</span><span id="n2">n</span><span id="y">y</span></h1>
-                        <h2 data-aos="fade-up" className="duper-bold black display-5 ms-3">Creative Developer & Designer</h2>
+                        <h2 data-aos="fade-up" className="duper-bold black ms-3">Creative Developer & Designer</h2>
                             <ul className="circles">
                                 <li></li>
                                 <li></li>
