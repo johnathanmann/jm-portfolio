@@ -51,3 +51,8 @@ nav button{
     color: var(--white);
 }
 
+@media (max-width: 768px){
+    nav img{
+        height: 4vh;
+    }
+}
