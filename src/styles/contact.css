@@ -2,6 +2,6 @@
     font-size: calc(1.625rem + 7vw);
 }
 
-#contact p{
-    font-family: 20px;
+#contact h2{
+    font-size: calc(1.625rem + 3vw);
 }

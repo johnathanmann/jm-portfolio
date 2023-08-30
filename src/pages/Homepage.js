@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";    
 import "../styles/home.css";
+import { useEffect } from "react";
 import projects from "../assets/projects.json";
 import HTML from "../assets/imgs/html-icon.png";
 import CSS from "../assets/imgs/css-icon.png";
@@ -17,6 +18,9 @@ let icons = {HTML, CSS, JavaScript, React, MongoDB, Nodejs, Bootstrap4, Bootstra
 
 
 export default function Homepage(){
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return(
         <main id="home">
             <div id="home-cover" className="slide-over"></div>
@@ -53,8 +57,9 @@ export default function Homepage(){
                             <h1 className="duper-bold mt-2"><Link to={"/project"} state={{ some: projects[index].name }}>{projects[index].name}</Link><span className="tag"> {projects[index].type}</span></h1>
                             <ul className={projects[index].tooltip}>
                             {projects[index].icons.map((icon, index)=>{
-                                return <li className="tooltip"><img className="img-fluid icon" src={icons[icon]}/>
-                                <div className="top">
+                                return <li className="tooltip"><img className="img-fluid icon" alt={icon 
+                                + " icon"} src={icons[icon]}/>
+                                <div className="top duper-regular">
                                     {icon}<i></i>
                                 </div></li>})}
                             </ul>

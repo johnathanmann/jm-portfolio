@@ -16,6 +16,19 @@ body{
     src: url(../assets/fonts/Hello-KookyCloud-ExtraKooky.otf);
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--white); 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--black); 
+    border-radius: 5px;
+  }
+
 .hello-kooky{
     font-family: Hello-Kooky;
 }

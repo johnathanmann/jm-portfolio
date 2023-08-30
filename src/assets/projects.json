@@ -1,7 +1,7 @@
 [
     {
         "name": "Seared",
-        "type": "Full stack project",
+        "type": "Full-stack project",
         "icons":[
             "MySQL",
             "Handlebarsjs",
@@ -12,7 +12,7 @@
         "projectClass":"project d-flex yellow bg-yellow grow",
         "tagline": "Bootcamp group project",
         "tags":[
-            "Fullstack",
+            "Full-stack",
             "Site Design"
         ],
         "repo": "https://github.com/johnathanmann/Seared",
@@ -21,7 +21,7 @@
 
     },{
         "name": "A Note To You",
-        "type": "Full stack project",
+        "type": "Full-stack project",
         "icons":[
             "React",
             "MongoDB",
@@ -32,7 +32,7 @@
         "projectClass":"project d-flex blue bg-blue grow",
         "tagline": "MERN stack project",
         "tags":[
-            "Fullstack",
+            "Full-stack",
             "Site Design",
             "Backend Development"
         ],
@@ -52,7 +52,8 @@
         "projectClass":"project d-flex red bg-red grow",
         "tagline": "Front end React project",
         "tags":[
-            "Site Design"
+            "Site Design",
+            "Site Development"
         ],
         "repo": "https://github.com/johnathanmann/cava-calculator",
         "deployment": "https://johnathanmann.github.io/cava-calculator/",
@@ -70,7 +71,8 @@
         "projectClass":"project d-flex yellow bg-yellow grow",
         "tagline": "Mock beverage brand site",
         "tags":[
-            "Site Design"
+            "Site Design",
+            "Site Development"
         ],
         "repo": "https://github.com/johnathanmann/siplicity",
         "deployment": "https://johnathanmann.github.io/siplicity/",
