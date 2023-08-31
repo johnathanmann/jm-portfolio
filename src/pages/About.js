@@ -19,7 +19,7 @@ export default function About(){
                     <h1 className="me-5"><FontAwesomeIcon icon={faGraduationCap} color="#3F8FB7" /><span><a rel="noreferrer" href={certificate} target="blank" className="ms-2">Certificate</a></span></h1>
                     <h1><FontAwesomeIcon icon={faFile} color="#3F8FB7" /><span><a rel="noreferrer" href={resume} target="blank" className="ms-2">Resume</a></span></h1>
                 </div>
-                <p data-aos="fade-up" className="duper-regular m-5 big-text">My name is Johnathan Mann, but you can call me Johnny. I am an aspiring full-stack web developer and designer. Though I specialize in the MERN stack I’m open to learning anything and everything I can get my hands on. After taking some time for portfolio building after completing my full-stack coding bootcamp I am looking to get my professional career started. </p>
+                <p data-aos="fade-up" className="duper-regular m-5 big-text">My name is Johnathan Mann, but you can call me Johnny. I am an aspiring full-stack web developer and designer. Though I specialize in the MERN stack I’m open to learning anything and everything I can get my hands on. After taking some time for portfolio building after completing my full-stack coding bootcamp I am looking to start my professional career.</p>
             </section>
             <section className="row m-5" id="skills">
                 <section className="col-lg-4 col-sm-12">
