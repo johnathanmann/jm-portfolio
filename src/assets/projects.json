@@ -8,7 +8,6 @@
             "Bootstrap4"
         ],
         "color":"yellow",
-        "tooltip":"yellow-icon",
         "projectClass":"project d-flex yellow bg-yellow grow",
         "tagline": "Bootcamp group project",
         "tags":[
@@ -28,7 +27,6 @@
             "jQuery"
         ],
         "color":"blue",
-        "tooltip":"blue-icon",
         "projectClass":"project d-flex blue bg-blue grow",
         "tagline": "MERN stack project",
         "tags":[
@@ -48,7 +46,6 @@
             "jQuery"
         ],
         "color":"red",
-        "tooltip":"red-icon",
         "projectClass":"project d-flex red bg-red grow",
         "tagline": "Front end React project",
         "tags":[
@@ -67,7 +64,6 @@
             "Bootstrap5"
         ],
         "color":"yellow",
-        "tooltip":"yellow-icon",
         "projectClass":"project d-flex yellow bg-yellow grow",
         "tagline": "Mock beverage brand site",
         "tags":[
