@@ -14,7 +14,6 @@ nav li{
 
 nav button{
     all: unset;
-    font-size: 24px;
     border: 2px solid;
     border-radius: 5px;
     padding: 5px;
@@ -55,8 +54,5 @@ nav button{
     nav img{
         height: 5vh;
         margin: 10px;
-    }
-    nav button{
-        font-size: 20px
     }
 }

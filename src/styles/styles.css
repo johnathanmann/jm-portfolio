@@ -85,6 +85,27 @@ a:hover{
     color: var(--blue);
 }
 
+.header{
+    font-size: calc(1.625rem + 8vw);
+    font-family: hello-kooky;
+}
+
+.sub-header{
+    font-size: calc(1.625rem + 2vw);
+}
+
+.big-text{
+    font-size: 30px;
+}
+
+.small-text{
+    font-size: 17px;
+}
+
+.p-tag{
+    font-size: 22px;
+}
+
 footer #footer-smiley{
     height: 8vh;
 }

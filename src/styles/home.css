@@ -3,7 +3,6 @@
 }
 
 #home header h1{
-    font-size: calc(1.625rem + 8vw);
     z-index: 10;
     position: relative;
     margin-top: 15vh;
@@ -11,7 +10,6 @@
 }
 
 #home header h2{
-    font-size: calc(1.625rem + 2vw);
     position: relative;
     z-index: 10;
     text-shadow: 3px 2px var(--white);
@@ -229,7 +227,6 @@
 }
 
 .tag{
-    font-size: 20px;
     margin-left: 15px;
 }
 

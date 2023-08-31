@@ -4,20 +4,6 @@
     overflow-wrap: break-word;
 }
 
-#contact header h1{
-    font-size: calc(1.625rem + 7vw);
-}
-
-#contact p, h2{
-    font-size: 30px;
-}
-
 #contact h2{
     display: inline;
-}
-
-@media (max-width: 768px){
-    #contact h2{
-        font-size: calc(1.625rem + 2vw);
-    }
 }
