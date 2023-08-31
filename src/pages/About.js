@@ -40,6 +40,7 @@ export default function About(){
                         <li>JavaScript</li>
                         <li>React</li>
                         <li>MongoDB</li>
+                        <li>Node.js</li>
                         <li>Bootstrap</li>
                         <li>Adobe Photoshop</li>
                         <li>Figma</li>
