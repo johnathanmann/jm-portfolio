@@ -8,7 +8,7 @@
             "Bootstrap4"
         ],
         "color":"yellow",
-        "projectClass":"project d-flex yellow bg-yellow grow",
+        "projectClass":"project d-flex red bg-red grow",
         "tagline": "Bootcamp group project",
         "tags":[
             "Full-stack",
@@ -19,6 +19,23 @@
         "desc":"Seared was a super fun project I did with some great developers in my coding bootcamp. The goal of the project was to make a full stack website that solved a real world problem. Our problem was the age old question of “What's for dinner?”. I did all of the designing on this project which I think turned out great. One of our biggest challenges were merge conflicts with the recipes.JSON file. The problem being is we each had a different version of the file when we tried to push it. We solved this by being more conscious of what we were pushing and when we were pulling."
 
     },{
+        "name": "Elevate",
+        "type": "Web design project",
+        "icons":[
+            "React",
+            "Bootstrap5"
+        ],
+        "color":"blue",
+        "projectClass":"project d-flex blue bg-blue grow",
+        "tagline": "Front end React project",
+        "tags":[
+            "Site Design",
+            "Site Development"
+        ],
+        "repo": "https://github.com/johnathanmann/elevate",
+        "deployment": "https://johnathanmann.github.io/elevate/",
+        "desc": "Elevate is a website for a mock coffee shop. This project uses a combination of React and Boostrap for a modern responsive look. I focused on design consistancy with this project. I had a lot of fun picking out matching assets and fonts for this project."
+    },{
         "name": "Note To You",
         "type": "Full-stack project",
         "icons":[
@@ -27,7 +44,7 @@
             "jQuery"
         ],
         "color":"blue",
-        "projectClass":"project d-flex blue bg-blue grow",
+        "projectClass":"project d-flex yellow bg-yellow grow",
         "tagline": "MERN stack project",
         "tags":[
             "Full-stack",
@@ -64,7 +81,7 @@
             "Bootstrap5"
         ],
         "color":"yellow",
-        "projectClass":"project d-flex yellow bg-yellow grow",
+        "projectClass":"project d-flex blue bg-blue grow",
         "tagline": "Mock beverage brand site",
         "tags":[
             "Site Design",
@@ -72,6 +89,6 @@
         ],
         "repo": "https://github.com/johnathanmann/siplicity",
         "deployment": "https://johnathanmann.github.io/siplicity/",
-        "desc": "This project primarily centered around front-end design, offering an enjoyable opportunity to delve into color selection and animation techniques. Opting for a return to fundamentals, I chose to forgo the complexities of my typical React sites in favor of a streamlined design endeavor. The graphics used were made using photoshop both from purchased assets and my own designs. My favorite part of this project was creating my own CSS animations."
+        "desc": "This project primarily centered around front-end design, offering an enjoyable opportunity to delve into color selection and animation techniques. Opting for a return to fundamentals, I chose to forgo the complexities of my typical React sites in favor of a streamlined design endeavor. The graphics used were made using Photoshop both from purchased assets and my own designs. My favorite part of this project was creating my own CSS animations."
     }
 ]
