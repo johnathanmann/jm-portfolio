@@ -51,7 +51,7 @@ export default function Homepage(){
                 {projects.map((project, index)=>{
                 return <section data-aos="fade-up" data-aos-offset="100" className={projects[index].projectClass}>
                             <h1 className="duper-bold big-text mt-2"><Link to={"/project"} state={{ some: projects[index].name }}>{projects[index].name}</Link><span className="tag p-tag"> {projects[index].type}</span></h1>
-                            <ul>
+                            <ul className={projects[index].tooltip}>
                             {projects[index].icons.map((icon, index)=>{
                                 return <li className="tooltip"><img className="icon" alt={icon 
                                 + " icon"} src={icons[icon]}/>

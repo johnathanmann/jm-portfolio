@@ -7,7 +7,8 @@
             "Handlebarsjs",
             "Bootstrap4"
         ],
-        "color":"yellow",
+        "color":"red",
+        "tooltip": "red-icon",
         "projectClass":"project d-flex red bg-red grow",
         "tagline": "Bootcamp group project",
         "tags":[
@@ -26,6 +27,7 @@
             "Bootstrap5"
         ],
         "color":"blue",
+        "tooltip": "blue-icon",
         "projectClass":"project d-flex blue bg-blue grow",
         "tagline": "Front end React project",
         "tags":[
@@ -43,7 +45,8 @@
             "MongoDB",
             "jQuery"
         ],
-        "color":"blue",
+        "color":"yellow",
+        "tooltip": "yellow-icon",
         "projectClass":"project d-flex yellow bg-yellow grow",
         "tagline": "MERN stack project",
         "tags":[
@@ -63,6 +66,7 @@
             "jQuery"
         ],
         "color":"red",
+        "tooltip": "red-icon",
         "projectClass":"project d-flex red bg-red grow",
         "tagline": "Front end React project",
         "tags":[
@@ -80,7 +84,8 @@
             "Photoshop",
             "Bootstrap5"
         ],
-        "color":"yellow",
+        "color":"blue",
+        "tooltip": "blue-icon",
         "projectClass":"project d-flex blue bg-blue grow",
         "tagline": "Mock beverage brand site",
         "tags":[
